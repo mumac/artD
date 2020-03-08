@@ -1,0 +1,347 @@
+@import 'variables';
+@import 'fonts';
+
+html,
+body {
+    height: 100%;
+    font-family: $font-family;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    @include respond(md) {
+        font-size: 14px;
+    }
+    @include respond(sm) {
+        font-size: 12px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    padding: 15px 0;
+    text-align: left;
+    color: #000;
+    font-size: (12 / 16) + rem;
+
+    @include respond(sm) {
+        font-size: (16 / 16) + rem;
+    }
+}
+
+section {
+    position: relative;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    cursor: pointer;
+    color: $body-color;
+
+    &:hover {
+        color: $color-active;
+        transition: color 0.4s ease 0s;
+    }
+}
+
+.button {
+    border-radius: 4px;
+    padding: 10px 20px;
+    line-height: 1;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.content {
+    position: relative;
+    padding-left: 20%;
+    padding-right: 10%;
+
+    @include respond(sm) {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+.footer-content {
+    position: inherit;
+}
+
+.content-home {
+    padding-right: 0;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.title-block {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    max-width: 40%;
+    overflow-wrap: break-word;
+    z-index: 100;
+
+    @include respond(sm) {
+        top: 24px;
+        left: 10px;
+        max-width: 55%;
+    }
+
+    .subtitle-wrap {
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .title,
+    .subtitle {
+        display: inline;
+        font-family: $font-family-second;
+        font-size: (80 / 16) + rem;
+        text-transform: uppercase;
+        background-color: #fff;
+        line-height: 1.1;
+        letter-spacing: 5px;
+
+        @include respond(md) {
+            font-size: (60 / 16) + rem;
+        }
+
+        @include respond(sm) {
+            font-size: (48 / 16) + rem;
+        }
+    }
+
+    .subtitle {
+        font-size: (30 / 16) + rem;
+        max-width: 200px;
+        font-weight: 300;
+    }
+}
+
+.about-text-block {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0 60px;
+    border-bottom: 1px solid #000;
+
+    .quotes {
+        flex: 0 0 55%;
+
+        .inner {
+            padding-right: 10%;
+        }
+    }
+
+    .quote {
+        margin-bottom: 30px;
+    }
+
+    .quote-text {
+        color: $color-text;
+        font-size: (30 / 16) + rem;
+        line-height: 1.1;
+        font-weight: 400;
+        font-family: $font-family-second;
+    }
+
+    .quote-author {
+        font-size: (12 / 16) + rem;
+        font-weight: 300;
+        color: $color-text;
+        text-align: right;
+        padding-top: 10px;
+    }
+
+    .about-text {
+        flex: 0 0 45%;
+        font-size: (14 / 16) + rem;
+        line-height: 1.8;
+    }
+}
+
+.contacts-block {
+    padding: 105px 0 60px 35%;
+    min-height: 200px;
+    border-bottom: 1px solid #000;
+
+    .contact {
+        margin-bottom: 45px;
+    }
+}
+
+.contact-name {
+    font-family: $font-family-second;
+    font-weight: 300;
+    color: $color-text;
+    margin-bottom: 10px;
+}
+
+.content-music {
+    .audio-subtitle {
+        font-size: (30 / 16) + rem;
+        line-height: 0.9;
+        padding-top: 20px;
+        padding-bottom: 70px;
+        margin-bottom: 21px;
+        white-space: pre-line;
+        border-bottom: 1px solid #222;
+    }
+
+    .video {
+        position: relative;
+        padding-top: 56.25%;
+        margin: 24px 0;
+
+        .react-player {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    .video-info {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 45px;
+        white-space: pre-line;
+        border-bottom: 1px solid #222;
+    }
+
+    .video-title {
+        font-size: (30 / 16) + rem;
+        line-height: 0.9;
+        text-transform: uppercase;
+
+        .label {
+            display: flex;
+            width: 100%;
+        }
+    }
+
+    .video-description {
+        font-size: (12 / 16) + rem;
+        text-align: right;
+    }
+}
+
+.tour-block {
+    padding: 15px 0 45px;
+    border-bottom: 1px solid #222;
+}
+
+.event {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    font-family: 'Raleway', 'sans-serif';
+    padding: 30px 20px;
+    border-top: 1px solid #979797;
+
+    .event-date {
+        flex: 0 0 15%;
+        font-weight: 700;
+
+        @include respond(sm) {
+            flex: 0 0 100%;
+        }
+
+        .day {
+            font-size: (48 / 16) + rem;
+            margin-right: 5px;
+        }
+
+        .month {
+            font-size: (16 / 16) + rem;
+            vertical-align: baseline;
+
+            @include respond(sm) {
+                font-size: (48 / 16) + rem;
+            }
+        }
+    }
+
+    .event-place {
+        flex: 0 0 20%;
+        font-weight: 700;
+
+        @include respond(sm) {
+            flex: 0 0 50%;
+            padding: 20px 0;
+            font-size: (24 / 16) + rem;
+        }
+    }
+
+    .event-location {
+        flex: 0 0 45%;
+
+        @include respond(sm) {
+            flex: 0 0 50%;
+            font-size: (24 / 16) + rem;
+        }
+    }
+
+    .event-tickets {
+        flex: 0 0 20%;
+
+        @include respond(sm) {
+            flex: 0 0 100%;
+            padding: 20px 0;
+            font-size: (24 / 16) + rem;
+        }
+
+        .link {
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            border: 1px solid #222;
+            text-align: center;
+            transition: none;
+            text-decoration: none;
+
+            &:hover {
+                background-color: #000;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: 1s ease-in-out 0s pageFadeIn forwards;
+}
+
+@keyframes pageFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "base": {
+        "navbar": {
+            "link": {
+                "home": "home",
+                "about": "about",
+                "music": "music",
+                "tour": "tour",
+                "gallery": "galarei",
+                "epk": "epk",
+                "contact": "kontakt"
+            }
+        },
+        "footer": {
+            "artist_name": "SOME ARTIST"
+        }
+    },
+    "start_page": {
+        "seo_title": "Welcome",
+        "subtitle": "Emile\nCole //",
+        "title": "TWIST IN MEINER WIRKLICHKEIT"
+    },
+    "about_page": {
+        "seo_title": "About",
+        "title": "About",
+        "quote_1": {
+            "text":"Seattle-based pop star makes her indie debut with a hauntingly beautiful album",
+            "author": "- John Tirckle , Music Today Post"
+        },
+        "quote_2": {
+            "text":"Emilia Cole is one of the scene's breakout stars",
+            "author": "- Linda Shine, Music of life magazin"
+        },
+        "bio_text": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you. <br/><br/>  This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are."
+    },
+    "contact_page": {
+        "seo_title": "Kontakt",
+        "title": "Kontakt",
+        "contact_1": {
+            "name": "MANAGEMENT | Karen Blanche",
+            "email": "some@email.com",
+            "phone": "+123-456-7890"
+        },
+        "contact_2": {
+            "name": "BOOKING | Daniel Ku",
+            "email": "info@mysite.com ",
+            "phone": "+123-456-7890"
+        }
+    },
+    "gallery_page": {
+        "seo_title": "Gallery",
+        "title": "Gallery"
+    },
+    "music_page": {
+        "seo_title": "Music",
+        "seo_description": "Music Description",
+        "title": "Music"
+    },
+    "tour_page": {
+        "seo_title": "Tour",
+        "seo_description": "Music Description",
+        "title": "Tour"
+    }
+}

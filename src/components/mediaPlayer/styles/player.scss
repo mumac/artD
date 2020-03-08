@@ -1,0 +1,134 @@
+@import '../../../themes/styles/variables';
+
+.audio-player {
+    border: 1px solid #222;
+    padding: 20px;
+    padding-bottom: 5px;
+
+    .title-wrapper {
+        padding: 1.5rem 0;
+        text-align: center;
+        color: #222;
+    }
+
+    .track-name {
+        width: 100%;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .artist-name,
+    .album-name {
+        display: inline-block;
+        margin-top: 6px;
+        font-size: (14 / 16) + rem;
+    }
+
+    .artist-name::after {
+        content: '/';
+        padding: 0 5px;
+    }
+
+    .timeline-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+    }
+
+    .timeline-wrapper .elapsed,
+    .timeline-wrapper .duration {
+        flex: 0 0;
+        font-size: (12 / 16) + rem;
+    }
+
+    .timeline-wrapper .duration {
+        text-align: right;
+    }
+
+    .timeline-wrapper .timeline {
+        flex: 1 1;
+        padding: 0 10px;
+        cursor: pointer;
+    }
+
+    .timeline-wrapper input {
+        width: 100%;
+    }
+
+    .control-panel {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 24px 0;
+        padding-right: 45px;
+
+        @include respond(sm) {
+            padding: 0;
+        }
+
+        > div {
+            padding: 0 10px;
+        }
+
+        svg {
+            cursor: pointer;
+        }
+    }
+
+    .track {
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 55px;
+        padding: 1rem 0;
+        border-top: 1px solid #c9c9c9;
+        align-items: center;
+        cursor: pointer;
+
+        &.active,
+        &.hover {
+            color: #27d3b4;
+
+            svg {
+                fill: #27d3b4;
+            }
+        }
+    }
+
+    .track svg {
+        width: 8px;
+        cursor: pointer;
+    }
+
+    .track .track-title {
+        font-size: (14 / 16) + rem;
+    }
+
+    .track .track-control {
+        display: flex;
+        flex-wrap: wrap;
+        width: 30px;
+    }
+
+    .track-number {
+        font-size: (14 / 16) + rem;
+    }
+
+    .volume-slider {
+        position: absolute;
+        left: calc(50% - 17px);
+        bottom: 0;
+        background-color: transparent;
+        padding: 0 5px 25px;
+    }
+
+    .volume {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .volume-icon {
+        position: relative;
+    }
+}
