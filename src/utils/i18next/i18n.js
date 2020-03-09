@@ -5,6 +5,8 @@ import LanguageDetector from "i18next-browser-languagedetector";
 
 import translationEN from "../../locales/en/translation.json";
 import translationDE from "../../locales/de/translation.json";
+import translationFR from "../../locales/fr/translation.json";
+
 
 const resources = {
     en: {
@@ -13,7 +15,12 @@ const resources = {
     de: {
         translation: translationDE,
     },
+    fr: {
+        translation: translationFR,
+    },
 };
+
+const languages = ["en", "de"];
 
 i18n
     // load translation using xhr -> see /public/locales
@@ -28,7 +35,7 @@ i18n
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
         resources,
-        whitelist: ["en", "de"],
+        whitelist: languages,
         fallbackLng: "en", // use en if detected lng is not available
         debug: true,
         interpolation: {
@@ -43,3 +50,5 @@ i18n
     });
 
 export default i18n;
+
+export { languages };

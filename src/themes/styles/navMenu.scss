@@ -92,7 +92,7 @@
         font-weight: 300;
         text-transform: uppercase;
         text-decoration: none;
-        color: #222;
+        color: $link-color;
         transition: color 0.4s ease 0s;
         padding-left: 30px;
 
@@ -107,7 +107,7 @@
 
         &:hover,
         &.active {
-            color: #27d3b4;
+            color: $link-active-color;
         }
     }
 }
@@ -139,7 +139,7 @@
         }
 
         &:hover {
-            color: #27d3b4;
+            color: $link-active-color;
         }
     }
 
@@ -153,7 +153,7 @@
     }
 
     .lang.active {
-        color: #27d3b4;
+        color: $link-active-color;
     }
 }
 
