@@ -6,9 +6,11 @@ body {
     height: 100%;
     font-family: $font-family;
     font-size: 16px;
+    color: $text-color;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: $body-bg-color;
     margin: 0;
     @include respond(md) {
         font-size: 14px;
@@ -55,10 +57,10 @@ img {
 
 a {
     cursor: pointer;
-    color: $body-color;
+    color: $link-color;
 
     &:hover {
-        color: $color-active;
+        color: $link-active-color;
         transition: color 0.4s ease 0s;
     }
 }
@@ -122,7 +124,8 @@ a {
         font-family: $font-family-second;
         font-size: (80 / 16) + rem;
         text-transform: uppercase;
-        background-color: #fff;
+        background-color: $body-bg-color;
+        color: $title-color;
         line-height: 1.1;
         letter-spacing: 5px;
 
@@ -161,7 +164,7 @@ a {
     }
 
     .quote-text {
-        color: $color-text;
+        color: $text-color-secondary;
         font-size: (30 / 16) + rem;
         line-height: 1.1;
         font-weight: 400;
@@ -171,7 +174,7 @@ a {
     .quote-author {
         font-size: (12 / 16) + rem;
         font-weight: 300;
-        color: $color-text;
+        color: $text-color-secondary;
         text-align: right;
         padding-top: 10px;
     }
@@ -196,7 +199,7 @@ a {
 .contact-name {
     font-family: $font-family-second;
     font-weight: 300;
-    color: $color-text;
+    color: $text-color-secondary;
     margin-bottom: 10px;
 }
 

@@ -1,3 +1,12 @@
+$font-family: 'Open Sans';
+$font-family-second: 'Raleway', sans-serif;
+$body-bg-color: #fff;
+$text-color: #000;
+$link-color: #222;
+$link-active-color: #27d3b4;
+$text-color-secondary: #309c89;
+$title-color: #000;
+
 @mixin respond($media) {
     @if $media == sm {
         @media only screen and (max-width: 480px) {
@@ -13,12 +22,6 @@
         }
     }
 }
-
-$font-family: 'Open Sans';
-$font-family-second: 'Raleway', sans-serif;
-$body-color: #222;
-$color-active: #27d3b4;
-$color-text: #309c89;
 
 @mixin rotate($angle) {
     transform: rotate($angle);

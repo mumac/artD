@@ -88,10 +88,10 @@
 
         &.active,
         &.hover {
-            color: #27d3b4;
+            color: $link-active-color;
 
             svg {
-                fill: #27d3b4;
+                fill: $link-active-color;
             }
         }
     }

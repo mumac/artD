@@ -4,17 +4,14 @@ import { useTranslation } from "react-i18next";
 import classNames from "classnames";
 
 import Social from "./Social";
+import LangSwitcher from "./LangSwitcher";
 
 import "../themes/styles/navMenu.scss";
 
 
 function NavMenu() {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     const [isOpen, setOpen] = useState(false);
-
-    const langClass = lang => {
-        return i18n.languages[0] === lang ? "lang active" : "lang";
-    };
 
     return (
         <header className="header">
@@ -42,8 +39,7 @@ function NavMenu() {
                                 </div>
                             </div>
                             <div className="vn-navbar-lang">
-                                <span className={langClass("en")} onClick={() => i18n.changeLanguage("en")}>en</span>
-                                <span className={langClass("de")} onClick={() => i18n.changeLanguage("de")}>de</span>
+                                <LangSwitcher />
                             </div>
                         </div>
                     </div>
