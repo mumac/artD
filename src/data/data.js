@@ -5,7 +5,7 @@ const data = {
             //twitter: "https://twitter.com/",
             youtube: "https://www.youtube.com/user/kutandr/videos",
             instagram: "https://www.instagram.com/varvarakutuzova.piano",
-            vk: "https://vk.com/varvarakutuzova.piano",
+            vk: "https://vk.com/varvarakutuzova",
         }
     },
     gallery: [
@@ -79,7 +79,7 @@ const data = {
     music: {
        albumTitle: {
             en: "Новый диск // \n БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
-            ru: "Новый диск // \n БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ"
+            ru: "Новый записи// \n БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ"
         },
         tracks: [
             {
@@ -96,7 +96,7 @@ const data = {
                 }
             },
             {
-                fileName: "3.wav",
+                fileName: "WhatsApp Audio 2020-03-13 at 00.07.50.mp4",
                 en: {
                     artist: "Варвара Кутузова",
                     album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
@@ -105,7 +105,7 @@ const data = {
                 ru: {
                     artist: "Варвара Кутузова",
                     album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
-                    trackName: "Что попало, только не я"
+                    trackName: "А это только что из Ярославля"
                 }
             },
             {
