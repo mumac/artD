@@ -3,24 +3,19 @@ import { initReactI18next } from "react-i18next";
 import XHR from "i18next-xhr-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 
+import translationRU from "../../locales/ru/translation.json";
 import translationEN from "../../locales/en/translation.json";
-import translationDE from "../../locales/de/translation.json";
-import translationFR from "../../locales/fr/translation.json";
-
 
 const resources = {
+    ru: {
+        translation: translationRU,
+    },
     en: {
         translation: translationEN,
     },
-    de: {
-        translation: translationDE,
-    },
-    fr: {
-        translation: translationFR,
-    },
 };
 
-const languages = ["en", "de"];
+const languages = ["ru", "en"];
 
 i18n
     // load translation using xhr -> see /public/locales

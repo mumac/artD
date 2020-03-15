@@ -2,7 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { useTranslation, Trans } from "react-i18next";
 
-import homeImage from "assets/images/base/about.png";
+import homeImage from "assets/images/base/about.jpg";
 
 function AboutPage() {
     const { t } = useTranslation();

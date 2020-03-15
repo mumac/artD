@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 import { withTranslation } from "react-i18next";
 import classNames from "classnames";
 
-import coverImage from "assets/images/base/music.png";
+import coverImage from "assets/images/base/music.jpg";
 
 import Duration from "./duration";
 import Timeline from "./timeline";
