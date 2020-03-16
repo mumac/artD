@@ -101,7 +101,7 @@ a {
 
 .title-block {
     position: absolute;
-    top: 160px;
+    top: 220px;
     left: 0;
     max-width: 40%;
     //overflow-wrap: break-word;
@@ -114,15 +114,15 @@ a {
     }
 
     .subtitle-wrap {
-        max-width: 200px;
-        margin-bottom: 20px;
+        max-width: 300px;
+        margin-bottom: 40px;
     }
 
     .title,
     .subtitle {
         display: inline;
         font-family: $font-family-second;
-        font-size: (80 / 16) + rem;
+        font-size: (68 / 16) + rem;
         text-transform: uppercase;
         background-color: $body-bg-color;
         color: $title-color;
@@ -142,6 +142,7 @@ a {
         font-size: (30 / 16) + rem;
         max-width: 200px;
         font-weight: bold;
+        font-family: "open sans", sans-serif;
     }
 }
 
