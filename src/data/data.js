@@ -182,7 +182,7 @@ const data = {
                     location: "Москва"
                 },
                 ru: {
-                    place: "Сольный концерт",
+                    place: "Сольный концерт </br> hjlkjh",
                     location: "Зал `Зарядье`, Москва"
                 }
             },
