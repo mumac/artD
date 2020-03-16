@@ -1,49 +1,54 @@
 const data = {
     social: {
         links: {
-            facebook: "https://facebook.com/",
-            twitter: "https://twitter.com/",
-            youtube: "https://youtube.com/",
-            instagram: "https://instagram.com/",
+            facebook: "https://www.facebook.com/varvarakutuzova",
+            //twitter: "https://twitter.com/",
+            youtube: "https://www.youtube.com/user/kutandr/videos",
+            instagram: "https://www.instagram.com/varvarakutuzova.piano",
+            vk: "https://vk.com/varvarakutuzova",
         }
     },
     gallery: [
         { // Start image data
-            fileName: "1.png",
+            fileName: "6.jpg",
             en: {
                 title: "First image",
                 description: "Some long text about this image and more details..."
             },
-            de: {
-                title: "Erstes Bild",
-                description: "Ein langer Text zu diesem Bild und weitere Details ..."
+            ru: {
+                title: "Придумай название",
+                description: "Однажды я играла ..."
             }
         }, // End image data
         {
-            fileName: "11.jpg",
+            fileName: "2.jpg",
             en: {
-                title: "Second image",
-                description: "Some long text about this image and more details..."
+                title: "Другое название",
+                description: "Иногда приходится кланяться"
             },
-            de: {
-                title: "Erstes Bild",
-                description: "Ein langer Text zu diesem Bild und weitere Details ..."
+            ru: {
+                title: "Другое название",
+                description: "Иногда приходится кланяться"
             }
         },
         {
-            fileName: "2.png",
+            fileName: "3.png",
             en: {
-                title: "First image",
-                description: "Some long text about this image and more details..."
+                title: "Но нэйм",
+                description: "А ещё я умею читать..."
+            },
+            ru: {
+                title: "Но нэйм",
+                description: "А ещё я умею читать..."
             },
         },
         {
-            fileName: "4.png",
+            fileName: "4.jpg",
             en: {
                 title: "Thirst image",
                 description: "Some long text about this image and more details..."
             },
-            de: {
+            ru: {
                 title: "Erstes Bild",
                 description: "Ein langer Text zu diesem Bild und weitere Details ..."
             }
@@ -54,123 +59,79 @@ const data = {
                 title: "Fourth image",
                 description: "Some long text about this image and more details..."
             },
-            de: {
+            ru: {
                 title: "Erstes Bild",
                 description: "Ein langer Text zu diesem Bild und weitere Details ..."
             }
         },
         {
-            fileName: "6.png",
+            fileName: "1.jpg",
             en: {
                 title: "First image",
                 description: "Some long text about this image and more details..."
             },
-            de: {
+            ru: {
                 title: "Erstes Bild",
                 description: "Ein langer Text zu diesem Bild und weitere Details ..."
             }
         },
-        {
-            fileName: "7.png",
-            en: {
-                title: "First image",
-                description: "Some long text about this image and more details..."
-            },
-            de: {
-                title: "Erstes Bild",
-                description: "Ein langer Text zu diesem Bild und weitere Details ..."
-            }
-        },
-        {
-            fileName: "8.png",
-            en: {
-                title: "First image",
-                description: "Some long text about this image and more details..."
-            },
-            de: {
-                title: "Erstes Bild",
-                description: "Ein langer Text zu diesem Bild und weitere Details ..."
-            }
-        },
-        {
-            fileName: "9.png",
-            en: {
-                title: "First image",
-                description: "Some long text about this image and more details..."
-            },
-            de: {
-                title: "Erstes Bild",
-                description: "Ein langer Text zu diesem Bild und weitere Details ..."
-            }
-        },
-        {
-            fileName: "10.jpg",
-            en: {
-                title: "First image",
-                description: "Some long text about this image and more details..."
-            },
-            de: {
-                title: "Erstes Bild",
-                description: "Ein langer Text zu diesem Bild und weitere Details ..."
-            }
-        }
     ],
     music: {
-        albumTitle: {
-            en: "ALBUM // \n TWIST IN MY REALITY",
-            de: "ALBUME // \n Twist in meiner Realität"
+       albumTitle: {
+            en: "Новый диск // \n БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+            ru: "Новый записи// \n БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ"
         },
         tracks: [
             {
-                fileName: "2.wav",
+                fileName: "WhatsApp Audio 2019-10-28 at 13.14.26.mpeg",
                 en: {
-                    artist: "Emilia Cole",
-                    album: "Emilia Cole / Twist in my reality",
-                    trackName: "Organic Love"
+                    artist: "Варвара Кутузова",
+                    album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+                    trackName: "Магдебург"
                 },
-                de: {
-                    artist: "Emilia Cole",
-                    album: "Emilia Cole / Twist in meiner Realität",
-                    trackName: "Organic Love"
+                ru: {
+                    artist: "Варвара Кутузова",
+                    album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+                    trackName: "Магдебург"
                 }
             },
             {
-                fileName: "3.wav",
+                fileName: "WhatsApp Audio 2020-03-13 at 00.07.50.mp4",
                 en: {
-                    artist: "Emilia Cole",
-                    album: "Emilia Cole / Twist in my reality",
-                    trackName: "Twist in my reality"
+                    artist: "Варвара Кутузова",
+                    album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+                    trackName: "Что попало, только не я"
                 },
-                de: {
-                    artist: "Emilia Cole",
-                    album: "Emilia Cole / Twist in meiner Realität",
-                    trackName: "Twist in meiner Realität"
+                ru: {
+                    artist: "Варвара Кутузова",
+                    album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+                    trackName: "А это только что из Ярославля"
                 }
             },
             {
                 fileName: "4.wav",
                 en: {
-                    artist: "Emilia Cole",
-                    album: "Twist in my reality",
-                    trackName: "Street Light"
+                    artist: "Варвара Кутузова",
+                    album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+                    trackName: "Что попало, только не я 1"
                 },
-                de: {
-                    artist: "Emilia Cole",
-                    album: "Twist in meiner Realität",
-                    trackName: "Straßenlaterne"
+                ru: {
+                    artist: "Варвара Кутузова",
+                    album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+                    trackName: "Что попало, только не я 1"
                 }
             },
             {
                 fileName: "2.wav",
                 en: {
-                    artist: "Emilia Cole",
-                    album: "Twist in my reality",
-                    trackName: "Love Don’t Live Here Anymore (Cover)"
+                    artist: "Варвара Кутузова",
+                    album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+                    trackName: "Что попало, только не я 2"
                 },
-                de: {
-                    artist: "Emilia Cole",
-                    album: "Twist in meiner Realität",
-                    trackName: "Liebe lebt hier nicht mehr (Cover)"
+                ru: {
+                    artist: "Варвара Кутузова",
+                    album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+                    trackName: "Что попало, только не я 2"
                 }
             },
         ]
@@ -178,41 +139,35 @@ const data = {
     video: {
         tracks: [
             {
-                url: "https://vimeo.com/135166028",
+                url: "https://www.youtube.com/embed/mAVM5qwed8A",
                 en: {
-                    label: "Video //",
-                    trackName: "Organic Love",
-                    description: `Directed by VINCE MALC & EMILIA COLE
-                    Edited and Filmed by NICOLAS TROY
-                    Produced by NIKI HEART,
-                    Wix Films LTD.`
+                    label: "",
+                    trackName: "Soul of SENAR",
+                    description: `Edited and Filmed by IVAN PROSKURYAKOV
+                    Produced by ArtDIALOG`
                 },
-                de: {
-                    label: "Video //",
-                    trackName: "Organic Love",
-                    description: `Directed by VINCE MALC & EMILIA COLE
-                    Edited and Filmed by NICOLAS TROY
-                    Produced by NIKI HEART,
-                    Wix Films LTD.`
+                ru: {
+                    label: "",
+                    trackName: "Soul of SENAR",
+                    description: `Режиссёр и оператор ИВАН ПРСКУРЯКОВ
+                    Produced by ArtDIALOG`
                 }
             },
             {
-                url: "https://vimeo.com/134861419",
+                url: "https://youtu.be/eSjPWElU4Dc?list=RDfkYpvDxGo-U",
                 en: {
-                    label: "Video //",
-                    trackName: "Organic Love",
-                    description: `Directed by VINCE MALC & EMILIA COLE
+                    label: "P.I.Tchaikovsky",
+                    trackName: "Theme & Variations",
+                    /* description: `Directed by VINCE MALC & EMILIA COLE
                     Edited and Filmed by NICOLAS TROY
                     Produced by NIKI HEART,
-                    Wix Films LTD.`
+                    Wix Films LTD.`*/
                 },
-                de: {
-                    label: "Video //",
-                    trackName: "Organic Love",
-                    description: `Directed by VINCE MALC & EMILIA COLE
-                    Edited and Filmed by NICOLAS TROY
-                    Produced by NIKI HEART,
-                    Wix Films LTD.`
+                ru: {
+                    label: "П.И.Чайковский",
+                    trackName: "Тема с вариациями",
+                    description: `Москва, ЦМШ
+                    январь 2019`
                 }
             }
         ]
@@ -220,39 +175,39 @@ const data = {
     tour: {
         events: [
             {
-                date: "2020-02-18",
+                date: "2020-05-18",
                 toTickets: "https://",
                 en: {
-                    place: "The Venue",
-                    location: "San Francisco, CA"
+                    place: "Зарядье",
+                    location: "Москва"
                 },
-                de: {
-                    place: "The Venue",
-                    location: "San Francisco, CA"
+                ru: {
+                    place: "Сольный концерт </br> hjlkjh",
+                    location: "Зал `Зарядье`, Москва"
                 }
             },
             {
-                date: "2020-03-11",
+                date: "2020-05-22",
                 toTickets: "http://",
                 en: {
-                    place: "The Venue2",
-                    location: "Los Angeles, CA"
+                    place: "БЗК",
+                    location: "Москва"
                 },
-                de: {
-                    place: "The Venue",
-                    location: "Los Angeles, CA"
+                ru: {
+                    place: "Концерт с НФОР, дирижёр В.Спиваков",
+                    location: "БЗК, Москва"
                 }
             },
             {
-                date: "2020-04-14",
+                date: "2020-05-25",
                 toTickets: "http://",
                 en: {
-                    place: "The Venue3",
+                    place: "Дом Музыки",
                     location: "Los Angeles, CA"
                 },
-                de: {
-                    place: "The Venue",
-                    location: "Los Angeles, CA"
+                ru: {
+                    place: "Концерт камерной музыки",
+                    location: "Дом Музыки"
                 }
             },
         ]
