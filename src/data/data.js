@@ -77,7 +77,7 @@ const data = {
         },
     ],
     music: {
-       albumTitle: {
+        albumTitle: {
             en: "Новый диск // \n БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
             ru: "Новый записи// \n БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ"
         },
@@ -182,8 +182,8 @@ const data = {
                     location: "Москва"
                 },
                 ru: {
-                    place: "Сольный концерт bla-bla hjlkjh",
-                    location: "Зал `Зарядье`, Москва"
+                    place: "Сольный концерт \n bla-bla hjlkjh",
+                    location: 'Зал "Зарядье", Москва'
                 }
             },
             {
