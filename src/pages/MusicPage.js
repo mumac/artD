@@ -26,14 +26,6 @@ function MusicPage() {
                         </h1>
                     </div>
                 </div>
-                <div className="audio-player-block">
-                    <div className="audio-player">
-                        <AudioPlayer tracks={music.tracks} />
-                    </div>
-                    <div className="audio-subtitle">
-                        {music.albumTitle[currentLang]}
-                    </div>
-                </div>
                 <div className="video-player-block">
                     {video.tracks.map((track, index) => (
                         <div className="video-track" key={index}>
@@ -57,6 +49,14 @@ function MusicPage() {
                             </div>
                         </div>
                     ))}
+                </div>
+                <div className="audio-player-block">
+                    <div className="audio-player">
+                        <AudioPlayer tracks={music.tracks} />
+                    </div>
+                    <div className="audio-subtitle">
+                        {music.albumTitle[currentLang]}
+                    </div>
                 </div>
             </div>
         </>
