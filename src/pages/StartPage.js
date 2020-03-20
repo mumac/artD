@@ -18,15 +18,15 @@ function StartPage() {
                     <img src={homeImage} alt="" className="main-photo" />
                 </div>
                 <div className="title-block">
-                    <div className="subtitle-wrap">
-                        <div className="subtitle">
-                            {t("start_page.subtitle")}
-                        </div>
-                    </div>
                     <div className="title-wrap">
                         <h1 className="title">
                             {t("start_page.title")}
                         </h1>
+                    </div>
+                    <div className="subtitle-wrap">
+                        <div className="subtitle">
+                            {t("start_page.subtitle")}
+                        </div>
                     </div>
                 </div>
             </div>
