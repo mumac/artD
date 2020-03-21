@@ -264,11 +264,11 @@ a {
     flex-direction: row;
     align-items: baseline;
     font-family: 'Raleway', 'sans-serif';
-    padding: 30px 20px;
+    padding: 30px 10px;
     border-top: 1px solid #979797;
 
     .event-date {
-        flex: 0 0 15%;
+        flex: 0 0 20%;
         font-weight: 700;
 
         @include respond(sm) {
@@ -291,28 +291,29 @@ a {
     }
 
     .event-place {
-        flex: 0 0 45%;
+        flex: 0 0 40%;
         font-weight: 700;
         white-space: pre-line;
 
         @include respond(sm) {
             flex: 0 0 50%;
-            padding: 20px 0;
+            padding: 20px 0 20px 0;
             font-size: (24 / 16) + rem;
         }
     }
 
     .event-location {
-        flex: 0 0 20%;
+        flex: 0 0 30%;
 
         @include respond(sm) {
             flex: 0 0 50%;
+            padding: 20px 0 20px 30px;
             font-size: (24 / 16) + rem;
         }
     }
 
     .event-tickets {
-        flex: 0 0 20%;
+        flex: 0 0 10%;
 
         @include respond(sm) {
             flex: 0 0 100%;
