@@ -43,6 +43,14 @@ function AboutPage() {
                                     {t("about_page.quote_2.author")}
                                 </div>
                             </div>
+                            <div className="quote quote-3">
+                                <div className="quote-text">
+                                    {t("about_page.quote_3.text")}
+                                </div>
+                                <div className="quote-author">
+                                    {t("about_page.quote_3.author")}
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="about-text">
