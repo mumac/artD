@@ -68,6 +68,10 @@
             padding: 0;
         }
 
+        @include respond(md) {
+            padding: 0;
+        }
+
         > div {
             padding: 0 10px;
         }
