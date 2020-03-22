@@ -45,6 +45,9 @@ function TourPage() {
                                     <span className="month">
                                         {new Date(event.date).toLocaleDateString(currentLang, { month: "short" })}
                                     </span>
+                                    {/* <span className="year">
+                                        {new Date(event.date).toLocaleDateString(currentLang, { year: "numeric" })}
+                                    </span> */}
                                 </div>
                                 <div className="event-place">
                                     {event[currentLang].place}

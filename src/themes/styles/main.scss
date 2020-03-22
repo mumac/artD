@@ -307,6 +307,16 @@ a {
         .month {
             font-size: (16 / 16) + rem;
             vertical-align: baseline;
+            margin-right: 5px;
+
+            @include respond(sm) {
+                font-size: (48 / 16) + rem;
+            }
+        }
+        .year {
+            font-size: (16 / 16) + rem;
+            vertical-align: baseline;
+            margin-right: 5px;
 
             @include respond(sm) {
                 font-size: (48 / 16) + rem;
@@ -328,6 +338,7 @@ a {
 
     .event-location {
         flex: 0 0 30%;
+        white-space: pre-line;
 
         @include respond(sm) {
             flex: 0 0 40%;

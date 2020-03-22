@@ -23,8 +23,19 @@ const data = {
         {
             fileName: "2.jpg",
             en: {
+                title: "",
+                description: ""
+            },
+            ru: {
                 title: "Другое название",
                 description: "Иногда приходится кланяться"
+            }
+        },
+        {
+            fileName: "2.jpg",
+            en: {
+                title: "",
+                description: ""
             },
             ru: {
                 title: "Другое название",
@@ -34,23 +45,23 @@ const data = {
         {
             fileName: "3.png",
             en: {
-                title: "Но нэйм",
-                description: "А ещё я умею читать..."
+                title: "",
+                description: ""
             },
             ru: {
                 title: "Но нэйм",
-                description: "А ещё я умею читать..."
+                description: "А ещё я люблю фотки разглядывать..."
             },
         },
         {
             fileName: "4.jpg",
             en: {
                 title: "Thirst image",
-                description: "Some long text about this image and more details..."
+                description: ""
             },
             ru: {
-                title: "Erstes Bild",
-                description: "Ein langer Text zu diesem Bild und weitere Details ..."
+                title: "",
+                description: ""
             }
         },
         {
@@ -60,8 +71,8 @@ const data = {
                 description: "Some long text about this image and more details..."
             },
             ru: {
-                title: "Erstes Bild",
-                description: "Ein langer Text zu diesem Bild und weitere Details ..."
+                title: "Sold out",
+                description: ""
             }
         },
         {
@@ -71,8 +82,8 @@ const data = {
                 description: "Some long text about this image and more details..."
             },
             ru: {
-                title: "Erstes Bild",
-                description: "Ein langer Text zu diesem Bild und weitere Details ..."
+                title: "",
+                description: ""
             }
         },
     ],
@@ -175,7 +186,7 @@ const data = {
     tour: {
         events: [
             {
-                date: "2020-05-18",
+                date: "03-26",
                 //toTickets: "https://",
                 en: {
                     place: "Зарядье",
@@ -183,31 +194,139 @@ const data = {
                 },
                 ru: {
                     place: "Сольный концерт",
-                    location: 'Зал "Зарядье", Москва'
+                    location: "Московская филармония, \nкамерный зал"
                 }
             },
             {
-                date: "2020-05-22",
+                date: "2020-04-16",
                 //toTickets: "http://",
                 en: {
                     place: "БЗК",
                     location: "Москва"
                 },
                 ru: {
-                    place: "Концерт с НФОР, \n дирижёр В.Спиваков",
-                    location: "БЗК, Москва"
+                    place: "Junior Music Tour",
+                    location: "Филармония, \nг. Тула"
                 }
             },
             {
-                date: "2020-05-25",
+                date: "2020-04-21",
                 //toTickets: "http://",
                 en: {
-                    place: "Дом Музыки",
+                    place: "",
+                    location: ""
+                },
+                ru: {
+                    place: "Сольный концерт",
+                    location: "Филармония, \nг. Курск"
+                }
+            },
+            {
+                date: "2020-06-2",
+                //toTickets: "http://",
+                en: {
+                    place: "",
                     location: "Los Angeles, CA"
                 },
                 ru: {
-                    place: "Концерт камерной музыки",
-                    location: "Дом Музыки"
+                    place: "Junior Music Tour \nКонцерт с оркестром",
+                    location: "БЗК, \nг. Москва"
+                }
+            },
+            {
+                date: "2020-07-12",
+                //toTickets: "http://",
+                en: {
+                    place: "",
+                    location: ""
+                },
+                ru: {
+                    place: "Академия Вебье",
+                    location: "г. Вербье, \nШвейцария"
+                }
+            },
+            {
+                date: "2020-04-21",
+                //toTickets: "http://",
+                en: {
+                    place: "",
+                    location: ""
+                },
+                ru: {
+                    place: "Международная фортепианная \nакадемия",
+                    location: "Комо, \nИталия "
+                }
+            },
+            {
+                date: "2020-08-16",
+                //toTickets: "http://",
+                en: {
+                    place: "",
+                    location: ""
+                },
+                ru: {
+                    place: "Концерт с оркестром",
+                    location: "Академия им. Гнесиных, \nг. Москва"
+                }
+            },
+            {
+                date: "2020-09-30",
+                //toTickets: "http://",
+                en: {
+                    place: "",
+                    location: ""
+                },
+                ru: {
+                    place: "Сольный концерт",
+                    location: "Московская филармония, \nкамерный зал"
+                }
+            },
+            {
+                date: "2020-11-8",
+                //toTickets: "http://",
+                en: {
+                    place: "",
+                    location: ""
+                },
+                ru: {
+                    place: "Сольный концерт",
+                    location: "Филармония, \nг. Вологда"
+                }
+            },
+            {
+                date: "2020-11-15",
+                //toTickets: "http://",
+                en: {
+                    place: "",
+                    location: ""
+                },
+                ru: {
+                    place: "Сольный концерт",
+                    location: "Филармония, \nг. Архангельск"
+                }
+            },
+            {
+                date: "2021-03-7",
+                //toTickets: "http://",
+                en: {
+                    place: "",
+                    location: ""
+                },
+                ru: {
+                    place: "Сольный концерт",
+                    location: "Филармония, \nг. Волгоград"
+                }
+            },
+            {
+                date: "2020-04-10",
+                //toTickets: "http://",
+                en: {
+                    place: "",
+                    location: ""
+                },
+                ru: {
+                    place: "Концерт с оркестром",
+                    location: "Филармония, \nг. Рязань"
                 }
             },
         ]
