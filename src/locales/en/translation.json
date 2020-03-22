@@ -4,7 +4,7 @@
             "link": {
                 "home": "home",
                 "about": "about",
-                "music": "music 2",
+                "music": "music",
                 "tour": "tour",
                 "gallery": "gallery",
                 "epk": "epk",
@@ -59,6 +59,7 @@
     "tour_page": {
         "seo_title": "Tour",
         "seo_description": "Music Description",
-        "title": "Tour"
+        "title": "Tour",
+        "button" : "Tickets"
     }
 }
