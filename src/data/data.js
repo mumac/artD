@@ -195,15 +195,15 @@ const data = {
             },
             {
                 date: "03-26",
-                toTickets: "https://",
+                toTickets: "https://meloman.ru/hall/kamernyj-zal-filarmonii/",
                 en: {
-                    dateString: "26 March",
+                    dateString: "",
                     place: "Зарядье",
                     location: "Москва",
                     buttonText: "Info"
                 },
                 ru: {
-                    dateString: "26 мaрта",
+                    date: "",
                     place: "Сольный концерт",
                     location: "Московская филармония, \nкамерный зал",
                     buttonText: "Информация"
@@ -211,112 +211,126 @@ const data = {
             },
             {
                 date: "2020-04-16",
-                toTickets: "http://",
+                toTickets: "https://juniormusictour.ru/#grafik",
                 en: {
                     place: "БЗК",
                     location: "Москва"
                 },
                 ru: {
                     place: "Junior Music Tour",
-                    location: "Филармония, \nг. Тула"
+                    location: "Филармония, \nг. Тула",
+                    buttonText: "Информация"
                 }
             },
             {
                 date: "2020-04-21",
-                toTickets: "",
+                toTickets: "https://kogf.ru/?page_id=1370&event_id1=7793",
                 en: {
-                    dateString: "21 april - 2 may",
+                    dateString: "",
                     place: "",
-                    location: ""
+                    location: "",
+                    buttonText: "Tickets"
                 },
                 ru: {
-                    dateString: "21 апреля - 2 мая",
+                    dateString: "",
                     place: "Сольный концерт",
-                    location: "Филармония, \nг. Курск"
+                    location: "Филармония, \nг. Курск",
+                    buttonText: "Купить билет"
                 }
             },
             {
                 date: "2020-06-2",
-                toTickets: "",
+                toTickets: "juniormusictour.ru/#grafik",
                 en: {
                     place: "",
-                    location: "Los Angeles, CA"
+                    location: ""
                 },
                 ru: {
                     place: "Junior Music Tour \nКонцерт с оркестром",
-                    location: "БЗК, \nг. Москва"
+                    location: "БЗК, \nг. Москва",
+                    buttonText: "Информация"
                 }
             },
             {
                 date: "2020-07-12",
-                toTickets: "",
+                toTickets: "https://www.verbierfestival.com/en/academy/",
                 en: {
+                    dateString: "",
                     place: "",
                     location: ""
                 },
                 ru: {
+                    dateString: "12 июля\n - 3 авг.",
                     place: "Академия Вебье",
-                    location: "г. Вербье, \nШвейцария"
+                    location: "г. Вербье, \nШвейцария",
+                    buttonText: "Информация"
                 }
             },
             {
                 date: "2020-04-21",
-                toTickets: "",
+                toTickets: "https://www.lakecomopianoacademy.com/students",
                 en: {
+                    dateString: "",
                     place: "",
                     location: ""
                 },
                 ru: {
+                    dateString: "3 - 7 авг.",
                     place: "Международная фортепианная \nакадемия",
-                    location: "Комо, \nИталия "
+                    location: "Комо, \nИталия ",
+                    buttonText: "Информация"
                 }
             },
             {
                 date: "2020-08-16",
-                toTickets: "",
+                toTickets: "https://gnesinhall.ddns.net/%d0%b0%d1%84%d0%b8%d1%88%d0%b0",
                 en: {
                     place: "",
                     location: ""
                 },
                 ru: {
                     place: "Концерт с оркестром",
-                    location: "Академия им. Гнесиных, \nг. Москва"
+                    location: "Академия им. Гнесиных, \nг. Москва",
+                    buttonText: "Информация"
                 }
             },
             {
                 date: "2020-09-30",
-                toTickets: "",
+                toTickets: "https://meloman.ru/hall/kamernyj-zal-filarmonii/",
                 en: {
                     place: "",
                     location: ""
                 },
                 ru: {
                     place: "Сольный концерт",
-                    location: "Московская филармония, \nкамерный зал"
+                    location: "Московская филармония, \nкамерный зал",
+                    buttonText: "Информация"
                 }
             },
             {
                 date: "2020-11-8",
-                toTickets: "",
+                toTickets: "https://volfilarmonia.ru/meropriyatiya/varvara-kutuzova-(fortepiano,-moskva).html",
                 en: {
                     place: "",
                     location: ""
                 },
                 ru: {
                     place: "Сольный концерт",
-                    location: "Филармония, \nг. Вологда"
+                    location: "Филармония, \nг. Вологда",
+                    buttonText: "Информация"
                 }
             },
             {
                 date: "2020-11-15",
-                toTickets: "",
+                toTickets: "http://www.pomorfil.ru/",
                 en: {
                     place: "",
                     location: ""
                 },
                 ru: {
                     place: "Сольный концерт",
-                    location: "Филармония, \nг. Архангельск"
+                    location: "Филармония, \nг. Архангельск",
+                    buttonText: "Информация"
                 }
             },
             {
@@ -329,26 +343,28 @@ const data = {
             },
             {
                 date: "2021-03-7",
-                toTickets: "",
+                toTickets: "https://volgogradfilarmonia.ru/afishi/concerts",
                 en: {
                     place: "",
                     location: ""
                 },
                 ru: {
                     place: "Сольный концерт",
-                    location: "Филармония, \nг. Волгоград"
+                    location: "Филармония, \nг. Волгоград",
+                    buttonText: "Информация"
                 }
             },
             {
                 date: "2020-04-10",
-                toTickets: "",
+                toTickets: "http://rznfilarmonia.ru/afisha/",
                 en: {
                     place: "",
                     location: ""
                 },
                 ru: {
                     place: "Концерт с оркестром",
-                    location: "Филармония, \nг. Рязань"
+                    location: "Филармония, \nг. Рязань",
+                    buttonText: "Информация"
                 }
             },
         ]

@@ -301,10 +301,12 @@ a {
         font-size: (28 / 16) + rem;
         margin-bottom: 10px;
         color: #333;
+        white-space: pre-line;
 
         @include respond(sm) {
             font-size: (32 / 16) + rem;
             flex: 0 0 100%;
+            white-space: nowrap;
             
         }
     }
@@ -324,8 +326,7 @@ a {
     .event-location {
         flex: 0 0 20%;
         white-space: pre-line;
-        margin-left: 10px;
-       
+               
         @include respond(sm) {
             flex: 0 0 40%;
             padding: 0 0 20px;
