@@ -44,7 +44,7 @@ function TourPage() {
                                         <div className="event-date">
                                             {event[currentLang].dateString
                                                 ? event[currentLang].dateString
-                                                : new Date(event.date).toLocaleDateString(currentLang, { day: "numeric", month: "long" })
+                                                : new Date(event.date).toLocaleDateString(currentLang, { day: "numeric", month: "short" })
                                             }
                                         </div>
                                         <div className="event-place">

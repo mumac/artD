@@ -281,8 +281,9 @@ a {
 .events-year {
     font-size: (48 / 16) + rem;
     font-weight: 700;
-    text-align: right;
+    text-align: left;
     padding: 30px 10px;
+    border-top: 1px solid #979797
 }
 
 .event {
@@ -295,7 +296,7 @@ a {
     border-top: 1px solid #979797;
 
     .event-date {
-        flex: 0 0 100%;
+        flex: 0 0 20%;
         font-weight: 700;
         font-size: (28 / 16) + rem;
         margin-bottom: 10px;
@@ -303,6 +304,8 @@ a {
 
         @include respond(sm) {
             font-size: (32 / 16) + rem;
+            flex: 0 0 100%;
+            
         }
     }
 
@@ -312,19 +315,20 @@ a {
         white-space: pre-line;
 
         @include respond(sm) {
-            flex: 0 0 60%;
+            flex: 0 0 50%;
             padding: 0 0 20px;
             font-size: (24 / 16) + rem;
         }
     }
 
     .event-location {
-        flex: 0 0 40%;
+        flex: 0 0 20%;
         white-space: pre-line;
-
+        margin-left: 10px;
+       
         @include respond(sm) {
             flex: 0 0 40%;
-            padding: 0 0 20px 10px;
+            padding: 0 0 20px;
             font-size: (24 / 16) + rem;
             text-align: right;
         }
