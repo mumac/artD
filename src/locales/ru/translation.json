@@ -63,6 +63,7 @@
     "tour_page": {
         "seo_title": "Концерты",
         "seo_description": "Music Description",
-        "title": "Концерты"
+        "title": "Концерты",
+        "button" : "Билеты"
     }
 }

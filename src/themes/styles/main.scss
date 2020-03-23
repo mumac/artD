@@ -278,6 +278,13 @@ a {
     border-bottom: 1px solid #222;
 }
 
+.events-year {
+    font-size: (48 / 16) + rem;
+    font-weight: 700;
+    text-align: right;
+    padding: 30px 10px;
+}
+
 .event {
     display: flex;
     flex-wrap: wrap;
@@ -288,39 +295,14 @@ a {
     border-top: 1px solid #979797;
 
     .event-date {
-        flex: 0 0 20%;
+        flex: 0 0 100%;
         font-weight: 700;
+        font-size: (28 / 16) + rem;
+        margin-bottom: 10px;
+        color: #333;
 
         @include respond(sm) {
-            flex: 0 0 100%;
-        }
-
-        .day {
-            font-size: (48 / 16) + rem;
-            margin-right: 5px;
-
-            @include respond(md) {
-                font-size: (32 / 16) + rem;
-            }
-        }
-
-        .month {
-            font-size: (16 / 16) + rem;
-            vertical-align: baseline;
-            margin-right: 5px;
-
-            @include respond(sm) {
-                font-size: (48 / 16) + rem;
-            }
-        }
-        .year {
-            font-size: (16 / 16) + rem;
-            vertical-align: baseline;
-            margin-right: 5px;
-
-            @include respond(sm) {
-                font-size: (48 / 16) + rem;
-            }
+            font-size: (32 / 16) + rem;
         }
     }
 
@@ -331,30 +313,29 @@ a {
 
         @include respond(sm) {
             flex: 0 0 60%;
-            padding: 20px 0;
+            padding: 0 0 20px;
             font-size: (24 / 16) + rem;
         }
     }
 
     .event-location {
-        flex: 0 0 30%;
+        flex: 0 0 40%;
         white-space: pre-line;
 
         @include respond(sm) {
             flex: 0 0 40%;
-            padding: 20px 0 20px 10px;
+            padding: 0 0 20px 10px;
             font-size: (24 / 16) + rem;
             text-align: right;
         }
     }
 
     .event-tickets {
-        flex: 0 0 10%;
+        flex: 0 0 20%;
+        align-self: flex-start;
 
         @include respond(sm) {
             flex: 0 0 100%;
-            padding: 20px 0;
-            font-size: (24 / 16) + rem;
         }
 
         .link {
@@ -365,6 +346,11 @@ a {
             text-align: center;
             transition: none;
             text-decoration: none;
+
+            @include respond(sm) {
+                padding: 10px 0;
+                font-size: (24 / 16) + rem;
+            }
 
             &:hover {
                 background-color: #000;

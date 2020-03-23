@@ -35,32 +35,38 @@ function TourPage() {
                         <div className="local"></div>
                         <div className="social"></div>
                     </div>
-                    {tour.events.map((event, index) => (
-                        <div className="events">
-                            <div className="event">
-                                <div className="event-date">
-                                    <span className="day">
-                                        {new Date(event.date).toLocaleDateString(currentLang, { day: "numeric" })}
-                                    </span>
-                                    <span className="month">
-                                        {new Date(event.date).toLocaleDateString(currentLang, { month: "short" })}
-                                    </span>
-                                    {/* <span className="year">
-                                        {new Date(event.date).toLocaleDateString(currentLang, { year: "numeric" })}
-                                    </span> */}
-                                </div>
-                                <div className="event-place">
-                                    {event[currentLang].place}
-                                </div>
-                                <div className="event-location">
-                                    {event[currentLang].location}
-                                </div>
-                                <div className="event-tickets">
-                                    <a className="link" href={event.toTickets} alt="ticket" target="_blank" rel="noopener noreferrer">Tickets</a>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
+                    <div className="events">
+                        {tour.events.map((event, index) => (
+                            event[currentLang].year
+                                ? <div className="events-year">{event[currentLang].year}</div>
+                                : (
+                                    <div className="event">
+                                        <div className="event-date">
+                                            {event[currentLang].dateString
+                                                ? event[currentLang].dateString
+                                                : new Date(event.date).toLocaleDateString(currentLang, { day: "numeric", month: "long" })
+                                            }
+                                        </div>
+                                        <div className="event-place">
+                                            {event[currentLang].place}
+                                        </div>
+                                        <div className="event-location">
+                                            {event[currentLang].location}
+                                        </div>
+                                        {event.toTickets &&
+                                            <div className="event-tickets">
+                                                <a className="link" href={event.toTickets} alt="ticket" target="_blank" rel="noopener noreferrer">
+                                                    {event[currentLang].buttonText
+                                                        ? event[currentLang].buttonText
+                                                        : t("tour_page.button")
+                                                    }
+                                                </a>
+                                            </div>
+                                        }
+                                    </div>
+                                )
+                        ))}
+                    </div>
                 </div>
             </div>
         </>

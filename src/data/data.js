@@ -2,7 +2,7 @@ const data = {
     social: {
         links: {
             facebook: "https://www.facebook.com/varvarakutuzova",
-            //twitter: "https://twitter.com/",
+            twitter: "",
             youtube: "https://www.youtube.com/user/kutandr/videos",
             instagram: "https://www.instagram.com/varvarakutuzova.piano",
             vk: "https://vk.com/varvarakutuzova",
@@ -128,7 +128,7 @@ const data = {
                 },
                 ru: {
                     artist: "Варвара Кутузова",
-                   // album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+                    // album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
                     trackName: "Что попало, только не я 1 - studio recording"
                 }
             },
@@ -186,20 +186,32 @@ const data = {
     tour: {
         events: [
             {
-                date: "03-26",
-                //toTickets: "https://",
                 en: {
-                    place: "Зарядье",
-                    location: "Москва"
+                    year: "2020",
                 },
                 ru: {
+                    year: "2020",
+                }
+            },
+            {
+                date: "03-26",
+                toTickets: "https://",
+                en: {
+                    dateString: "26 March",
+                    place: "Зарядье",
+                    location: "Москва",
+                    buttonText: "Info"
+                },
+                ru: {
+                    dateString: "26 мaрта",
                     place: "Сольный концерт",
-                    location: "Московская филармония, \nкамерный зал"
+                    location: "Московская филармония, \nкамерный зал",
+                    buttonText: "Информация"
                 }
             },
             {
                 date: "2020-04-16",
-                //toTickets: "http://",
+                toTickets: "http://",
                 en: {
                     place: "БЗК",
                     location: "Москва"
@@ -211,19 +223,21 @@ const data = {
             },
             {
                 date: "2020-04-21",
-                //toTickets: "http://",
+                toTickets: "",
                 en: {
+                    dateString: "21 april - 2 may",
                     place: "",
                     location: ""
                 },
                 ru: {
+                    dateString: "21 апреля - 2 мая",
                     place: "Сольный концерт",
                     location: "Филармония, \nг. Курск"
                 }
             },
             {
                 date: "2020-06-2",
-                //toTickets: "http://",
+                toTickets: "",
                 en: {
                     place: "",
                     location: "Los Angeles, CA"
@@ -235,7 +249,7 @@ const data = {
             },
             {
                 date: "2020-07-12",
-                //toTickets: "http://",
+                toTickets: "",
                 en: {
                     place: "",
                     location: ""
@@ -247,7 +261,7 @@ const data = {
             },
             {
                 date: "2020-04-21",
-                //toTickets: "http://",
+                toTickets: "",
                 en: {
                     place: "",
                     location: ""
@@ -259,7 +273,7 @@ const data = {
             },
             {
                 date: "2020-08-16",
-                //toTickets: "http://",
+                toTickets: "",
                 en: {
                     place: "",
                     location: ""
@@ -271,7 +285,7 @@ const data = {
             },
             {
                 date: "2020-09-30",
-                //toTickets: "http://",
+                toTickets: "",
                 en: {
                     place: "",
                     location: ""
@@ -283,7 +297,7 @@ const data = {
             },
             {
                 date: "2020-11-8",
-                //toTickets: "http://",
+                toTickets: "",
                 en: {
                     place: "",
                     location: ""
@@ -295,7 +309,7 @@ const data = {
             },
             {
                 date: "2020-11-15",
-                //toTickets: "http://",
+                toTickets: "",
                 en: {
                     place: "",
                     location: ""
@@ -306,8 +320,16 @@ const data = {
                 }
             },
             {
+                en: {
+                    year: "2021",
+                },
+                ru: {
+                    year: "2021",
+                }
+            },
+            {
                 date: "2021-03-7",
-                //toTickets: "http://",
+                toTickets: "",
                 en: {
                     place: "",
                     location: ""
@@ -319,7 +341,7 @@ const data = {
             },
             {
                 date: "2020-04-10",
-                //toTickets: "http://",
+                toTickets: "",
                 en: {
                     place: "",
                     location: ""
