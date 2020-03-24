@@ -352,6 +352,40 @@ const data = {
                 }
             },
         ]
+    },
+    bio: {
+        en: {
+            quotes: [
+                {
+                    text: '"Seattle-based pop star makes her indie debut with a hauntingly beautiful album"',
+                    author: "- John Tirckle , Music Today Post"
+                },
+                {
+                    text: '"Emilia Cole is one of the scene\'s breakout stars"',
+                    author: "- Linda Shine, Music of life magazin"
+                },
+            ],
+            bioText: `I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click \"Edit Text\" or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you. 
+            <br/><br/>  This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.`
+        },
+        ru: {
+            quotes: [
+                {
+                    text: '"Варвара Кутузова – абсолютно уникальный самородок, на мой взгляд!"',
+                    author: "- Денис Мацуев"
+                },
+                {
+                    text: '"Варвара Кутузова – замечательная молодая пианистка: живая и современная юная девушка в общении и совершенно другая на сцене - серьёзная, глубокая, вдумчивая, со своим почерком, драматизмом, тонкой лирикой, искренностью и куражом."',
+                    author: "- Борис Березовский"
+                },
+                {
+                    text: '"Многие играют на фортепиано, но заставляют себя слушать – единицы. Варя из их числа!"',
+                    author: '"- Николай Луганский"'
+                },
+            ],
+            bioText: `<b>Варвара Кутузова</b> – российская пианистка, лауреат всероссийских и международных музыкальных конкурсов. Родилась в 2003 году. Музыкой начала заниматься c 4 лет, первое выступление с оркестром состоялось в 6 лет, а первый сольный концерт - в 8 лет. С 2007 по 2019 год училась в Центральной музыкальной школе при Московской государственной консерватории имени П. И. Чайковского в классе М.А. Марченко, в настоящее время учится в «Московской средней специальной музыкальной школе (колледж) им. Гнесиных» в классе Заслуженного деятеля искусств РФ, заслуженного артиста РФ М.С. Хохлова.
+            <br/><br/>Варвара Кутузова – стипендиат фондов Владимира Спивакова, «Новые имена» и «Фонда Валерия Золотухина». В качестве солистки выступает с ведущими оркестрами: Национальным филармоническим оркестром России, Государственным камерным оркестром “Виртуозы Москвы”, Большим симфоническим оркестром им. П. И. Чайковского, Государственным симфоническим оркестром «Новая Россия», Государственным академическим симфоническим оркестром им. Е. Ф. Светланова, Государственным симфоническим оркестром Республики Татарстан, Губернаторским симфоническим оркестром Иркутской филармонии, Симфоническим оркестром Государственной республики Казахстан, Губернаторским симфоническим оркестром Рязанской филармонии, Симфоническим оркестром Волгоградской филармонии, Симфоническим оркестром Ульяновской филармонии, Ростовским симфоническим оркестром, с симфоническим оркестром консерватории в Ницце, с Чикагским филармоническим оркестром и другими.`
+        }
     }
 };
 

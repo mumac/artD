@@ -1,11 +1,17 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
+import classNames from "classnames";
 
 import homeImage from "assets/images/base/about.jpg";
 
+import data from "../data";
+
+const { bio } = data;
+
 function AboutPage() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const currentLang = i18n.languages[0];
 
     return (
         <>
@@ -27,34 +33,20 @@ function AboutPage() {
                 <div className="about-text-block">
                     <div className="quotes">
                         <div className="inner">
-                            <div className="quote quote-1">
-                                <div className="quote-text">
-                                    {t("about_page.quote_1.text")}
+                            {bio[currentLang].quotes.map((quote, index) => (
+                                <div className={classNames("quote", "quote-" + (index + 1))}>
+                                    <div className="quote-text">
+                                        <div dangerouslySetInnerHTML={{ __html: quote.text }} />
+                                    </div>
+                                    <div className="quote-author">
+                                        <div dangerouslySetInnerHTML={{ __html: quote.author }} />
+                                    </div>
                                 </div>
-                                <div className="quote-author">
-                                    {t("about_page.quote_1.author")}
-                                </div>
-                            </div>
-                            <div className="quote quote-2">
-                                <div className="quote-text">
-                                    {t("about_page.quote_2.text")}
-                                </div>
-                                <div className="quote-author">
-                                    {t("about_page.quote_2.author")}
-                                </div>
-                            </div>
-                            <div className="quote quote-3">
-                                <div className="quote-text">
-                                    {t("about_page.quote_3.text")}
-                                </div>
-                                <div className="quote-author">
-                                    {t("about_page.quote_3.author")}
-                                </div>
-                            </div>
+                            ))}
                         </div>
                     </div>
                     <div className="about-text">
-                        <Trans i18nKey="about_page.bio_text" />
+                        <div dangerouslySetInnerHTML={{ __html: bio[currentLang].bioText }} />
                     </div>
                 </div>
             </div>
