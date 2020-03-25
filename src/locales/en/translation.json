@@ -4,21 +4,21 @@
             "link": {
                 "home": "home",
                 "about": "about",
-                "music": "music",
                 "tour": "tour",
+                "music": "music",
                 "gallery": "gallery",
-                "epk": "epk",
+                "epk": "press-kit",
                 "contact": "contact"
             }
         },
         "footer": {
-            "artist_name": "SOME ARTIST"
+            "artist_name": "ArtDIALOG"
         }
     },
     "start_page": {
-        "seo_title": "Welcome",
-        "subtitle": "Emile\nCole //",
-        "title": "Twist in my reality"
+        "seo_title": "Varvara Kutuzova",
+        "title": "Varvara\nKutuzova",
+        "subtitle": "// \n piano"
     },
     "about_page": {
         "seo_title": "About",
@@ -28,13 +28,13 @@
         "seo_title": "Contact",
         "title": "Contact",
         "contact_1": {
-            "name": "MANAGEMENT | Karen Blanche",
-            "email": "some@email.com",
+            "name": "World management | ArtDialog Agency",
+            "email": "vasylyev@artdialog.ch",
             "phone": "+123-456-7890"
         },
         "contact_2": {
-            "name": "BOOKING | Daniel Ku",
-            "email": "info@mysite.com ",
+            "name": "Russia management | Kate Goltzman",
+            "email": "info@бла-бла.com",
             "phone": "+123-456-7890"
         }
     },
@@ -43,14 +43,14 @@
         "title": "Gallery"
     },
     "music_page": {
-        "seo_title": "Music",
-        "seo_description": "Music Description",
-        "title": "Music"
+        "seo_title": "Media",
+        "seo_description": "Media Description",
+        "title": "Media"
     },
     "tour_page": {
         "seo_title": "Tour",
-        "seo_description": "Music Description",
-        "title": "Tour",
+        "seo_description": "Tour Description",
+        "title": "Concerts",
         "button" : "Tickets"
     }
 }

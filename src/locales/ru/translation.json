@@ -28,7 +28,7 @@
         "seo_title": "Контакт",
         "title": "Контакт",
         "contact_1": {
-            "name": "MANAGEMENT | ArtDialog Agency",
+            "name": "World management | ArtDialog Agency",
             "email": "vasylyev@artdialog.ch",
             "phone": "+123-456-7890"
         },
@@ -49,7 +49,7 @@
     },
     "tour_page": {
         "seo_title": "Концерты",
-        "seo_description": "Music Description",
+        "seo_description": "Tour Description",
         "title": "Концерты",
         "button" : "Билеты"
     }

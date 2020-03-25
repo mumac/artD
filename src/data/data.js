@@ -269,8 +269,9 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
-            fileName: "00037.jpg",
+        },
+        {
+            fileName: "00027.jpg",
             en: {
                 title: "",
                 description: ""
@@ -279,7 +280,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        },
+        {
             fileName: "00028.jpg",
             en: {
                 title: "",
@@ -349,17 +351,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
-            fileName: "00035.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },{
+        },
+        {
             fileName: "00036.jpg",
             en: {
                 title: "",
@@ -367,101 +360,6 @@ const data = {
             },
             ru: {
                 title: "Другое название",
-                description: ""
-            }
-        },{
-            fileName: "00027.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },{
-            fileName: "00038.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },{
-            fileName: "00039.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },{
-            fileName: "00040.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: ""
-            }
-        },
-        { // Start image data
-            fileName: "6.jpg",
-            en: {
-                title: "First image",
-                description: "Some long text about this image and more details..."
-            },
-            ru: {
-                title: "Придумай название",
-                description: "Однажды я играла ..."
-            }
-        }, // End image data
-        {
-            fileName: "2.jpg",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Другое название",
-                description: "Иногда приходится кланяться"
-            }
-        },
-        {
-            fileName: "3.png",
-            en: {
-                title: "",
-                description: ""
-            },
-            ru: {
-                title: "Но нэйм",
-                description: "А ещё я люблю фотки разглядывать..."
-            },
-        },
-        {
-            fileName: "4.jpg",
-            en: {
-                title: "Thirst image",
-                description: ""
-            },
-            ru: {
-                title: "",
-                description: ""
-            }
-        },
-        {
-            fileName: "",
-            en: {
-                title: "First image",
-                description: "Some long text about this image and more details..."
-            },
-            ru: {
-                title: "",
                 description: ""
             }
         },
@@ -574,8 +472,8 @@ const data = {
                 toTickets: "https://meloman.ru/hall/kamernyj-zal-filarmonii/",
                 en: {
                     dateString: "",
-                    place: "",
-                    location: "",
+                    place: "Recital",
+                    location: "Moscow Philharmony, \n chamber hall",
                     buttonText: "Info"
                 },
                 ru: {
@@ -589,8 +487,9 @@ const data = {
                 date: "2020-04-16",
                 toTickets: "https://juniormusictour.ru/#grafik",
                 en: {
-                    place: "БЗК",
-                    location: "Москва"
+                    place: "Junior Music Tour",
+                    location: "Philharmony hall,\nTula",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Junior Music Tour",
@@ -603,8 +502,8 @@ const data = {
                 toTickets: "https://kogf.ru/?page_id=1370&event_id1=7793",
                 en: {
                     dateString: "",
-                    place: "",
-                    location: "",
+                    place: "Recital",
+                    location: "Philharmony hall,\nKursk",
                     buttonText: "Tickets"
                 },
                 ru: {
@@ -618,8 +517,9 @@ const data = {
                 date: "2020-06-2",
                 toTickets: "juniormusictour.ru/#grafik",
                 en: {
-                    place: "",
-                    location: ""
+                    place: "Junior Music Tour \nConcert with orchestra",
+                    location: "Conservatory Big Hall,\nMoscow",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Junior Music Tour \nКонцерт с оркестром",
@@ -631,9 +531,10 @@ const data = {
                 date: "2020-07-12",
                 toTickets: "https://www.verbierfestival.com/en/academy/",
                 en: {
-                    dateString: "",
-                    place: "",
-                    location: ""
+                    dateString: "Jul 12\n - Aug 3",
+                    place: "Verbier Festival Academy",
+                    location: "Verbier,\n Switzerland",
+                    buttonText: "Info"
                 },
                 ru: {
                     dateString: "12 июля\n - 3 авг.",
@@ -646,9 +547,10 @@ const data = {
                 date: "2020-04-21",
                 toTickets: "https://www.lakecomopianoacademy.com/students",
                 en: {
-                    dateString: "",
-                    place: "",
-                    location: ""
+                    dateString: "Aug 3 - 7",
+                    place: "International Piano Academy",
+                    location: "Como,\nItaly",
+                    buttonText: "Info"
                 },
                 ru: {
                     dateString: "3 - 7 авг.",
@@ -661,8 +563,9 @@ const data = {
                 date: "2020-08-16",
                 toTickets: "https://gnesinhall.ddns.net/%d0%b0%d1%84%d0%b8%d1%88%d0%b0",
                 en: {
-                    place: "",
-                    location: ""
+                    place: "Concert with Orchestra",
+                    location: "Gnesins Russian Music Academy,\n Moscow ",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Концерт с оркестром",
@@ -674,8 +577,9 @@ const data = {
                 date: "2020-09-30",
                 toTickets: "https://meloman.ru/hall/kamernyj-zal-filarmonii/",
                 en: {
-                    place: "",
-                    location: ""
+                    place: "Recital",
+                    location: "Moscow Philharmony, \n chamber hall",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Сольный концерт",
@@ -687,8 +591,9 @@ const data = {
                 date: "2020-11-8",
                 toTickets: "https://volfilarmonia.ru/meropriyatiya/varvara-kutuzova-(fortepiano,-moskva).html",
                 en: {
-                    place: "",
-                    location: ""
+                    place: "Recital",
+                    location: "Philharmony hall, \n Vologda",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Сольный концерт",
@@ -700,8 +605,9 @@ const data = {
                 date: "2020-11-15",
                 toTickets: "http://www.pomorfil.ru/",
                 en: {
-                    place: "",
-                    location: ""
+                    place: "Recital",
+                    location: "Philharmony hall, \n Arkhangelsk",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Сольный концерт",
@@ -721,8 +627,9 @@ const data = {
                 date: "2021-03-7",
                 toTickets: "https://volgogradfilarmonia.ru/afishi/concerts",
                 en: {
-                    place: "",
-                    location: ""
+                    place: "Recital",
+                    location: "Philharmony hall, \n Volgograd",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Сольный концерт",
@@ -734,8 +641,9 @@ const data = {
                 date: "2020-04-10",
                 toTickets: "http://rznfilarmonia.ru/afisha/",
                 en: {
-                    place: "",
-                    location: ""
+                    place: "Concert with Orchestra",
+                    location: "Philharmony hall, \n Ryazan",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Концерт с оркестром",
@@ -749,16 +657,25 @@ const data = {
         en: {
             quotes: [
                 {
-                    text: '"Seattle-based pop star makes her indie debut with a hauntingly beautiful album"',
-                    author: "- John Tirckle , Music Today Post"
+                    text: '"Varvara Kutuzova - absolutely unique nugget, in my opinion!"',
+                    author: "- Denis Matsuev"
                 },
                 {
-                    text: '"Emilia Cole is one of the scene\'s breakout stars"',
-                    author: "- Linda Shine, Music of life magazin"
+                    text: '"Varvara Kutuzova is a wonderful young pianist: lively and modern young girl in communication and completely different on stage - serious, deep, thoughtful, with her character, dramatism, fine lyrics, sincerity and courage."',
+                    author: "- Boris Berezovsky"
+                },
+                {
+                    text: '"Many people play piano, but make themselves listen - units. Varvara from among them!"',
+                    author: "- Nikolay Lugansky"
                 },
             ],
-            bioText: `I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click "Edit Text" or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you. 
-            <br/><br/>  This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.`
+            bioText: `<b>Varvara Kutuzova</b> is a young Russian pianist, winner of many national and international music competitions.<br/><br/>
+            As a soloist, she frequently performs with orchestras such as the Russia National Philharmonic Orchestra, the "Moscow Virtuosi" Chamber Orchestra, the Tchaikovsky Grand Symphony Orchestra, the "New Russia" Symphony Orchestra, the Svetlanov State Academic Symphony Orchestra, the State Symphony Orchestra of the Republic of Tatarstan, the Chicago Philharmonic Orchestra and others. Varvara works closely with such conductors as Vladimir Spivakov, Vladimir Fedoseev, Alexander Sladkovsky, Anna Skryleva, Giancarlo de Lorenzo and many others. Varvara's chamber ensemble partners include the renowned Borodin quartet, Denis Matsuev, Konstantin Emelianov and others.<br/><br/>
+            Varvara is active in concert life and takes part in music projects and festivals, among them "Stars on Baikal" (Irkutsk), Annecy - Classic (France), "Antalya piano festival" (Turkey), "ArtDialog" (Switzerland), "Russian Day" (Brazil, France), "Days of Moscow" (China, France, Slovenia), etc.<br/><br/>
+            In November 2018 Varvara received the award and the honorary title "Young talents of Russia". She is also a scholarship holder of the Vladimir Spivakov Foundation, the "New Name"s Foundation and the "Valery Zolotukhin Foundation".<br/><br/>
+            Varvara Kutuzova gives concerts in the largest halls of the world, including "Zaradye" Hall, Halls of the Moscow Conservatory, Beethoven Hall of the Bolshoi Theatre of Russia, Moscow International House of Music, Konzerthaus in Vienna, Esperanza Iris Theatre in Tabasco, Millennium Park in Chicago and others.<br/><br/>
+            Among her numerous awards the most important include the "Grand Piano Competition", the "Nutcracker" Television Competition and the "Nota Bene!" International Competition. Varvara's successes have been awarded at many international competitions, among them "21st Century Art" (Ukraine), "Prima Artisrs" (New York), "Astana Piano Passion" (Kazakhstan) and others. Varvara is a Grand Prix winner of international internet competitions in Mexico and Serbia.<br/><br/>
+            Varvara Kutuzova was born in 2003. She started studying music at the age of 4 and her first performance with the orchestra took place at the age of 6. Till 2019 she studied at the Special Music School of the Moscow Conservatory under M.A. Marchenko and now she continues her studies in the class of the Honoured Artist of the Russian Federation M.S. Khokhlov at the Gnesins Music College.`
         },
         ru: {
             quotes: [
