@@ -80,7 +80,7 @@ a {
 .content {
     position: relative;
     padding-left: 20%;
-    padding-right: 10%;
+    //padding-right: 10%;
 
     @include respond(sm) {
         padding-left: 5%;
