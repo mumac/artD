@@ -156,7 +156,7 @@ a {
         font-weight: bold;
         font-family: $font-family;
         @include respond(sm) {
-            font-size: (24 / 16) + rem;
+            font-size: (24 / 18) + rem;
             letter-spacing: 1px;
         }
     }
