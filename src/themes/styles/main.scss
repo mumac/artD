@@ -148,7 +148,9 @@ a {
         @include respond(md) {
             font-size: (48 / 16) + rem;
         }
+    }
 
+    .title {
         @include respond(sm) {
             font-size: (32 / 16) + rem;
             letter-spacing: 1px;
@@ -160,10 +162,16 @@ a {
         max-width: 200px;
         font-weight: bold;
         font-family: $font-family;
+
+        @include respond(sm) {
+            font-size: (24 / 16) + rem;
+            letter-spacing: 1px;
+        }
     }
 }
 
-.about-text-block {
+.about-text-block,
+.main-quotes {
     display: flex;
     flex-wrap: wrap;
     padding: 30px 0 60px;
@@ -283,7 +291,7 @@ a {
     font-weight: 700;
     text-align: left;
     padding: 30px 10px;
-    border-top: 1px solid #979797
+    border-top: 1px solid #979797;
 }
 
 .event {
@@ -307,7 +315,6 @@ a {
             font-size: (32 / 16) + rem;
             flex: 0 0 100%;
             white-space: nowrap;
-            
         }
     }
 
@@ -326,7 +333,7 @@ a {
     .event-location {
         flex: 0 0 20%;
         white-space: pre-line;
-               
+
         @include respond(sm) {
             flex: 0 0 40%;
             padding: 0 0 20px;

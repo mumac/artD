@@ -1,17 +1,15 @@
+import homeImage from "assets/images/base/about.jpg";
 import React from "react";
 import Helmet from "react-helmet";
 import { useTranslation } from "react-i18next";
-import classNames from "classnames";
 
-import homeImage from "assets/images/base/about.jpg";
-
+import Quote from "../components/Quote";
 import data from "../data";
-
-const { bio } = data;
 
 function AboutPage() {
     const { t, i18n } = useTranslation();
     const currentLang = i18n.languages[0];
+    const { bio } = data;
 
     return (
         <>
@@ -34,14 +32,10 @@ function AboutPage() {
                     <div className="quotes">
                         <div className="inner">
                             {bio[currentLang].quotes.map((quote, index) => (
-                                <div className={classNames("quote", "quote-" + (index + 1))}>
-                                    <div className="quote-text">
-                                        <div dangerouslySetInnerHTML={{ __html: quote.text }} />
-                                    </div>
-                                    <div className="quote-author">
-                                        <div dangerouslySetInnerHTML={{ __html: quote.author }} />
-                                    </div>
-                                </div>
+                                <Quote
+                                    quote={quote}
+                                    index={index}
+                                />
                             ))}
                         </div>
                     </div>

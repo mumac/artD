@@ -4,8 +4,13 @@ import { useTranslation } from "react-i18next";
 
 import homeImage from "assets/images/base/home.jpg";
 
+import Quote from "../components/Quote";
+import data from "../data";
+
 function StartPage() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const currentLang = i18n.languages[0];
+    const { startPage } = data;
 
     return (
         <>
@@ -28,6 +33,14 @@ function StartPage() {
                             {t("start_page.subtitle")}
                         </div>
                     </div>
+                </div>
+                <div className="main-quotes">
+                    {startPage[currentLang].quotes.map((quote, index) => (
+                        <Quote
+                            quote={quote}
+                            index={index}
+                        />
+                    ))}
                 </div>
             </div>
         </>
