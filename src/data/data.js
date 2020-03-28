@@ -19,7 +19,7 @@ const data = {
                 title: "Тут можно вписать название",
                 description: "А тут описание"
             }
-        },{
+        }, {
             fileName: "00002.jpg",
             en: {
                 title: "",
@@ -29,7 +29,7 @@ const data = {
                 title: "Название",
                 description: "Или любой другой текст"
             }
-        },{
+        }, {
             fileName: "00003.jpg",
             en: {
                 title: "",
@@ -39,7 +39,7 @@ const data = {
                 title: "название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00004.jpg",
             en: {
                 title: "",
@@ -49,7 +49,7 @@ const data = {
                 title: "название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00005.jpg",
             en: {
                 title: "",
@@ -59,7 +59,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00006.jpg",
             en: {
                 title: "",
@@ -69,7 +69,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00007.jpg",
             en: {
                 title: "",
@@ -79,7 +79,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00008.jpg",
             en: {
                 title: "",
@@ -89,7 +89,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00009.jpg",
             en: {
                 title: "",
@@ -99,7 +99,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00010.jpg",
             en: {
                 title: "",
@@ -109,7 +109,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00011.jpg",
             en: {
                 title: "",
@@ -119,7 +119,7 @@ const data = {
                 title: "Другое название",
                 description: "Иногда приходится кланяться"
             }
-        },{
+        }, {
             fileName: "00012.jpg",
             en: {
                 title: "",
@@ -129,7 +129,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00013.jpg",
             en: {
                 title: "",
@@ -139,7 +139,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00014.jpg",
             en: {
                 title: "",
@@ -149,7 +149,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00015.jpg",
             en: {
                 title: "",
@@ -159,7 +159,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00016.jpg",
             en: {
                 title: "",
@@ -169,7 +169,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00017.jpg",
             en: {
                 title: "",
@@ -179,7 +179,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00018.jpg",
             en: {
                 title: "",
@@ -189,7 +189,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00019.jpg",
             en: {
                 title: "",
@@ -199,7 +199,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00020.jpg",
             en: {
                 title: "",
@@ -209,7 +209,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00021.jpg",
             en: {
                 title: "",
@@ -219,7 +219,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00022.jpg",
             en: {
                 title: "",
@@ -229,7 +229,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00023.jpg",
             en: {
                 title: "",
@@ -239,7 +239,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00024.jpg",
             en: {
                 title: "",
@@ -249,7 +249,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00025.jpg",
             en: {
                 title: "",
@@ -259,7 +259,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00026.jpg",
             en: {
                 title: "",
@@ -291,7 +291,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00029.jpg",
             en: {
                 title: "",
@@ -301,7 +301,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00030.jpg",
             en: {
                 title: "",
@@ -311,7 +311,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00031.jpg",
             en: {
                 title: "",
@@ -321,7 +321,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00032.jpg",
             en: {
                 title: "",
@@ -331,7 +331,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00033.jpg",
             en: {
                 title: "",
@@ -341,7 +341,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        },{
+        }, {
             fileName: "00034.jpg",
             en: {
                 title: "",
@@ -367,7 +367,7 @@ const data = {
     music: {
         albumTitle: {
             en: "",
-            ru: ''
+            ru: ""
         },
         tracks: [
             {
@@ -446,7 +446,7 @@ const data = {
                 en: {
                     label: "P.I.Tchaikovsky",
                     trackName: "Theme & Variations",
-                    description: ``
+                    description: ""
                 },
                 ru: {
                     label: "П.И.Чайковский",
@@ -468,7 +468,7 @@ const data = {
                 }
             },
             {
-                date: "03-26",
+                date: "2020-03-26",
                 toTickets: "https://meloman.ru/hall/kamernyj-zal-filarmonii/",
                 en: {
                     dateString: "",
@@ -514,8 +514,8 @@ const data = {
                 }
             },
             {
-                date: "2020-06-2",
-                toTickets: "juniormusictour.ru/#grafik",
+                date: "2020-06-02",
+                toTickets: "https://juniormusictour.ru/#grafik",
                 en: {
                     place: "Junior Music Tour \nConcert with orchestra",
                     location: "Conservatory Big Hall,\nMoscow",
@@ -588,7 +588,7 @@ const data = {
                 }
             },
             {
-                date: "2020-11-8",
+                date: "2020-11-08",
                 toTickets: "https://volfilarmonia.ru/meropriyatiya/varvara-kutuzova-(fortepiano,-moskva).html",
                 en: {
                     place: "Recital",
@@ -624,7 +624,7 @@ const data = {
                 }
             },
             {
-                date: "2021-03-7",
+                date: "2021-03-07",
                 toTickets: "https://volgogradfilarmonia.ru/afishi/concerts",
                 en: {
                     place: "Recital",
