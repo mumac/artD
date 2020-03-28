@@ -666,7 +666,7 @@ const data = {
                 },
                 {
                     text: '"Many people play piano, but make themselves listen - units. Varvara from among them!"',
-                    author: "- Nikolay Lugansky"
+                    author: '- Nikolay Lugansky'
                 },
             ],
             bioText: `<b>Varvara Kutuzova</b> is a young Russian pianist, winner of many national and international music competitions.<br/><br/>
