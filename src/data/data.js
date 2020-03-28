@@ -661,10 +661,6 @@ const data = {
                     author: "- Denis Matsuev"
                 },
                 {
-                    text: '"Varvara Kutuzova is a wonderful young pianist: lively and modern young girl in communication and completely different on stage - serious, deep, thoughtful, with her character, dramatism, fine lyrics, sincerity and courage."',
-                    author: "- Boris Berezovsky"
-                },
-                {
                     text: '"Many people play piano, but make themselves listen - units. Varvara from among them!"',
                     author: '- Nikolay Lugansky'
                 },
@@ -685,7 +681,7 @@ const data = {
                 },
                 {
                     text: '"Многие играют на фортепиано, но заставляют себя слушать – единицы. Варя из их числа!"',
-                    author: '"- Николай Луганский"'
+                    author: '- Николай Луганский'
                 },
             ],
             bioText: `<b>Варвара Кутузова</b> – молодая российская пианистка, лауреат всероссийских и международных музыкальных конкурсов.<br><br>
@@ -700,8 +696,8 @@ const data = {
         en: {
             quotes: [
                 {
-                    text: '"Seattle-based pop star makes her indie debut with a hauntingly beautiful album"',
-                    author: "- John Tirckle , Music Today Post"
+                    text: '"Varvara Kutuzova is a wonderful young pianist: lively and modern young girl in communication and completely different on stage - serious, deep, thoughtful, with her character, dramatism, fine lyrics, sincerity and courage."',
+                    author: "- Boris Berezovsky"
                 },
             ],
         },
