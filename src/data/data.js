@@ -9,19 +9,108 @@ const data = {
         }
     },
     gallery: [
-        { // Start image data
-            fileName: "6.jpg",
+        {
+            fileName: "00001.jpg",
             en: {
-                title: "First image",
-                description: "Some long text about this image and more details..."
+                title: "",
+                description: ""
             },
             ru: {
-                title: "Придумай название",
-                description: "Однажды я играла ..."
+                title: "Тут можно вписать название",
+                description: "А тут описание"
             }
-        }, // End image data
-        {
-            fileName: "2.jpg",
+        },{
+            fileName: "00002.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Название",
+                description: "Или любой другой текст"
+            }
+        },{
+            fileName: "00003.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "название",
+                description: ""
+            }
+        },{
+            fileName: "00004.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "название",
+                description: ""
+            }
+        },{
+            fileName: "00005.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00006.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00007.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00008.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00009.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00010.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00011.jpg",
             en: {
                 title: "",
                 description: ""
@@ -30,67 +119,255 @@ const data = {
                 title: "Другое название",
                 description: "Иногда приходится кланяться"
             }
-        },
-        {
-            fileName: "2.jpg",
+        },{
+            fileName: "00012.jpg",
             en: {
                 title: "",
                 description: ""
             },
             ru: {
                 title: "Другое название",
-                description: "Иногда приходится кланяться"
+                description: ""
             }
-        },
-        {
-            fileName: "3.png",
+        },{
+            fileName: "00013.jpg",
             en: {
                 title: "",
                 description: ""
             },
             ru: {
-                title: "Но нэйм",
-                description: "А ещё я люблю фотки разглядывать..."
-            },
-        },
-        {
-            fileName: "4.jpg",
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00014.jpg",
             en: {
-                title: "Thirst image",
+                title: "",
                 description: ""
             },
             ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00015.jpg",
+            en: {
                 title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00016.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00017.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00018.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00019.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00020.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00021.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00022.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00023.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00024.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00025.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00026.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
                 description: ""
             }
         },
         {
-            fileName: "5.png",
+            fileName: "00027.jpg",
             en: {
-                title: "Fourth image",
-                description: "Some long text about this image and more details..."
+                title: "",
+                description: ""
             },
             ru: {
-                title: "Sold out",
+                title: "Другое название",
                 description: ""
             }
         },
         {
-            fileName: "1.jpg",
+            fileName: "00028.jpg",
             en: {
-                title: "First image",
-                description: "Some long text about this image and more details..."
+                title: "",
+                description: ""
             },
             ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00029.jpg",
+            en: {
                 title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00030.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00031.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00032.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00033.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },{
+            fileName: "00034.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },
+        {
+            fileName: "00036.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
                 description: ""
             }
         },
     ],
     music: {
         albumTitle: {
-            en: "Новый диск // \n БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
-            ru: 'Название альбома // \n "БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ"'
+            en: "",
+            ru: ''
         },
         tracks: [
             {
@@ -102,33 +379,33 @@ const data = {
                 },
                 ru: {
                     artist: "Варвара Кутузова",
-                    //album: "Варвара Кутузова /  БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+                    album: "",
                     trackName: "Магдебург \n очень классный live recording"
                 }
             },
             {
                 fileName: "WhatsApp Audio 2020-03-13 at 00.07.50.mp4",
                 en: {
-                    artist: "Варвара Кутузова",
-                    //album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
-                    trackName: "Что попало, только не я"
+                    artist: "",
+                    album: "",
+                    trackName: ""
                 },
                 ru: {
                     artist: "Варвара Кутузова",
-                    //album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+                    album: "",
                     trackName: "А это только что из Ярославля - live recording"
                 }
             },
             {
                 fileName: "4.wav",
                 en: {
-                    artist: "Варвара Кутузова",
-                    album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
-                    trackName: "Что попало, только не я 1"
+                    artist: "",
+                    album: "",
+                    trackName: ""
                 },
                 ru: {
                     artist: "Варвара Кутузова",
-                    // album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+                    album: "Варвара Кутузова / НАЗВАНИЕ АЛЬБОМА",
                     trackName: "Что попало, только не я 1 - studio recording"
                 }
             },
@@ -136,12 +413,12 @@ const data = {
                 fileName: "2.wav",
                 en: {
                     artist: "Варвара Кутузова",
-                    album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+                    album: "",
                     trackName: "Что попало, только не я 2 - тоже studio recording"
                 },
                 ru: {
                     artist: "Варвара Кутузова",
-                    album: "Варвара Кутузова / БЫСТРЕЕ ПОСЛУШАЙТЕ ВСЕ",
+                    album: "Варвара Кутузова / НАЗВАНИЕ АЛЬБОМА",
                     trackName: "Что попало, только не я 2- тоже studio recording"
                 }
             },
@@ -169,10 +446,7 @@ const data = {
                 en: {
                     label: "P.I.Tchaikovsky",
                     trackName: "Theme & Variations",
-                    /* description: `Directed by VINCE MALC & EMILIA COLE
-                    Edited and Filmed by NICOLAS TROY
-                    Produced by NIKI HEART,
-                    Wix Films LTD.`*/
+                    description: ``
                 },
                 ru: {
                     label: "П.И.Чайковский",
@@ -198,8 +472,8 @@ const data = {
                 toTickets: "https://meloman.ru/hall/kamernyj-zal-filarmonii/",
                 en: {
                     dateString: "",
-                    place: "Зарядье",
-                    location: "Москва",
+                    place: "Recital",
+                    location: "Moscow Philharmony, \n chamber hall",
                     buttonText: "Info"
                 },
                 ru: {
@@ -213,8 +487,9 @@ const data = {
                 date: "2020-04-16",
                 toTickets: "https://juniormusictour.ru/#grafik",
                 en: {
-                    place: "БЗК",
-                    location: "Москва"
+                    place: "Junior Music Tour",
+                    location: "Philharmony hall,\nTula",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Junior Music Tour",
@@ -227,8 +502,8 @@ const data = {
                 toTickets: "https://kogf.ru/?page_id=1370&event_id1=7793",
                 en: {
                     dateString: "",
-                    place: "",
-                    location: "",
+                    place: "Recital",
+                    location: "Philharmony hall,\nKursk",
                     buttonText: "Tickets"
                 },
                 ru: {
@@ -242,8 +517,9 @@ const data = {
                 date: "2020-06-2",
                 toTickets: "juniormusictour.ru/#grafik",
                 en: {
-                    place: "",
-                    location: ""
+                    place: "Junior Music Tour \nConcert with orchestra",
+                    location: "Conservatory Big Hall,\nMoscow",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Junior Music Tour \nКонцерт с оркестром",
@@ -255,9 +531,10 @@ const data = {
                 date: "2020-07-12",
                 toTickets: "https://www.verbierfestival.com/en/academy/",
                 en: {
-                    dateString: "",
-                    place: "",
-                    location: ""
+                    dateString: "Jul 12\n - Aug 3",
+                    place: "Verbier Festival Academy",
+                    location: "Verbier,\n Switzerland",
+                    buttonText: "Info"
                 },
                 ru: {
                     dateString: "12 июля\n - 3 авг.",
@@ -270,9 +547,10 @@ const data = {
                 date: "2020-04-21",
                 toTickets: "https://www.lakecomopianoacademy.com/students",
                 en: {
-                    dateString: "",
-                    place: "",
-                    location: ""
+                    dateString: "Aug 3 - 7",
+                    place: "International Piano Academy",
+                    location: "Como,\nItaly",
+                    buttonText: "Info"
                 },
                 ru: {
                     dateString: "3 - 7 авг.",
@@ -285,8 +563,9 @@ const data = {
                 date: "2020-08-16",
                 toTickets: "https://gnesinhall.ddns.net/%d0%b0%d1%84%d0%b8%d1%88%d0%b0",
                 en: {
-                    place: "",
-                    location: ""
+                    place: "Concert with Orchestra",
+                    location: "Gnesins Russian Music Academy,\n Moscow ",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Концерт с оркестром",
@@ -298,8 +577,9 @@ const data = {
                 date: "2020-09-30",
                 toTickets: "https://meloman.ru/hall/kamernyj-zal-filarmonii/",
                 en: {
-                    place: "",
-                    location: ""
+                    place: "Recital",
+                    location: "Moscow Philharmony, \n chamber hall",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Сольный концерт",
@@ -311,8 +591,9 @@ const data = {
                 date: "2020-11-8",
                 toTickets: "https://volfilarmonia.ru/meropriyatiya/varvara-kutuzova-(fortepiano,-moskva).html",
                 en: {
-                    place: "",
-                    location: ""
+                    place: "Recital",
+                    location: "Philharmony hall, \n Vologda",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Сольный концерт",
@@ -324,8 +605,9 @@ const data = {
                 date: "2020-11-15",
                 toTickets: "http://www.pomorfil.ru/",
                 en: {
-                    place: "",
-                    location: ""
+                    place: "Recital",
+                    location: "Philharmony hall, \n Arkhangelsk",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Сольный концерт",
@@ -345,8 +627,9 @@ const data = {
                 date: "2021-03-7",
                 toTickets: "https://volgogradfilarmonia.ru/afishi/concerts",
                 en: {
-                    place: "",
-                    location: ""
+                    place: "Recital",
+                    location: "Philharmony hall, \n Volgograd",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Сольный концерт",
@@ -358,8 +641,9 @@ const data = {
                 date: "2020-04-10",
                 toTickets: "http://rznfilarmonia.ru/afisha/",
                 en: {
-                    place: "",
-                    location: ""
+                    place: "Concert with Orchestra",
+                    location: "Philharmony hall, \n Ryazan",
+                    buttonText: "Info"
                 },
                 ru: {
                     place: "Концерт с оркестром",
@@ -373,16 +657,25 @@ const data = {
         en: {
             quotes: [
                 {
-                    text: '"Seattle-based pop star makes her indie debut with a hauntingly beautiful album"',
-                    author: "- John Tirckle , Music Today Post"
+                    text: '"Varvara Kutuzova - absolutely unique nugget, in my opinion!"',
+                    author: "- Denis Matsuev"
                 },
                 {
-                    text: '"Emilia Cole is one of the scene\'s breakout stars"',
-                    author: "- Linda Shine, Music of life magazin"
+                    text: '"Varvara Kutuzova is a wonderful young pianist: lively and modern young girl in communication and completely different on stage - serious, deep, thoughtful, with her character, dramatism, fine lyrics, sincerity and courage."',
+                    author: "- Boris Berezovsky"
+                },
+                {
+                    text: '"Many people play piano, but make themselves listen - units. Varvara from among them!"',
+                    author: "- Nikolay Lugansky"
                 },
             ],
-            bioText: `I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click \"Edit Text\" or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you. 
-            <br/><br/>  This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.`
+            bioText: `<b>Varvara Kutuzova</b> is a young Russian pianist, winner of many national and international music competitions.<br/><br/>
+            As a soloist, she frequently performs with orchestras such as the Russia National Philharmonic Orchestra, the "Moscow Virtuosi" Chamber Orchestra, the Tchaikovsky Grand Symphony Orchestra, the "New Russia" Symphony Orchestra, the Svetlanov State Academic Symphony Orchestra, the State Symphony Orchestra of the Republic of Tatarstan, the Chicago Philharmonic Orchestra and others. Varvara works closely with such conductors as Vladimir Spivakov, Vladimir Fedoseev, Alexander Sladkovsky, Anna Skryleva, Giancarlo de Lorenzo and many others. Varvara's chamber ensemble partners include the renowned Borodin quartet, Denis Matsuev, Konstantin Emelianov and others.<br/><br/>
+            Varvara is active in concert life and takes part in music projects and festivals, among them "Stars on Baikal" (Irkutsk), Annecy - Classic (France), "Antalya piano festival" (Turkey), "ArtDialog" (Switzerland), "Russian Day" (Brazil, France), "Days of Moscow" (China, France, Slovenia), etc.<br/><br/>
+            In November 2018 Varvara received the award and the honorary title "Young talents of Russia". She is also a scholarship holder of the Vladimir Spivakov Foundation, the "New Name"s Foundation and the "Valery Zolotukhin Foundation".<br/><br/>
+            Varvara Kutuzova gives concerts in the largest halls of the world, including "Zaradye" Hall, Halls of the Moscow Conservatory, Beethoven Hall of the Bolshoi Theatre of Russia, Moscow International House of Music, Konzerthaus in Vienna, Esperanza Iris Theatre in Tabasco, Millennium Park in Chicago and others.<br/><br/>
+            Among her numerous awards the most important include the "Grand Piano Competition", the "Nutcracker" Television Competition and the "Nota Bene!" International Competition. Varvara's successes have been awarded at many international competitions, among them "21st Century Art" (Ukraine), "Prima Artisrs" (New York), "Astana Piano Passion" (Kazakhstan) and others. Varvara is a Grand Prix winner of international internet competitions in Mexico and Serbia.<br/><br/>
+            Varvara Kutuzova was born in 2003. She started studying music at the age of 4 and her first performance with the orchestra took place at the age of 6. Till 2019 she studied at the Special Music School of the Moscow Conservatory under M.A. Marchenko and now she continues her studies in the class of the Honoured Artist of the Russian Federation M.S. Khokhlov at the Gnesins Music College.`
         },
         ru: {
             quotes: [
@@ -399,8 +692,12 @@ const data = {
                     author: '"- Николай Луганский"'
                 },
             ],
-            bioText: `<b>Варвара Кутузова</b> – российская пианистка, лауреат всероссийских и международных музыкальных конкурсов. Родилась в 2003 году. Музыкой начала заниматься c 4 лет, первое выступление с оркестром состоялось в 6 лет, а первый сольный концерт - в 8 лет. С 2007 по 2019 год училась в Центральной музыкальной школе при Московской государственной консерватории имени П. И. Чайковского в классе М.А. Марченко, в настоящее время учится в «Московской средней специальной музыкальной школе (колледж) им. Гнесиных» в классе Заслуженного деятеля искусств РФ, заслуженного артиста РФ М.С. Хохлова.
-            <br/><br/>Варвара Кутузова – стипендиат фондов Владимира Спивакова, «Новые имена» и «Фонда Валерия Золотухина». В качестве солистки выступает с ведущими оркестрами: Национальным филармоническим оркестром России, Государственным камерным оркестром “Виртуозы Москвы”, Большим симфоническим оркестром им. П. И. Чайковского, Государственным симфоническим оркестром «Новая Россия», Государственным академическим симфоническим оркестром им. Е. Ф. Светланова, Государственным симфоническим оркестром Республики Татарстан, Губернаторским симфоническим оркестром Иркутской филармонии, Симфоническим оркестром Государственной республики Казахстан, Губернаторским симфоническим оркестром Рязанской филармонии, Симфоническим оркестром Волгоградской филармонии, Симфоническим оркестром Ульяновской филармонии, Ростовским симфоническим оркестром, с симфоническим оркестром консерватории в Ницце, с Чикагским филармоническим оркестром и другими.`
+            bioText: `<b>Варвара Кутузова</b> – молодая российская пианистка, лауреат всероссийских и международных музыкальных конкурсов.<br><br>
+            Варвара Кутузова активно концертирует в крупнейших залах мира и в качестве солистки часто выступает с ведущими оркестрами России, Европы и Америки. Варвара тесно сотрудничает с такими дирижерами, как Владимир Спиваков, Владимир Федосеев, Александр Сладковский, Анна Скрылева, Джанкарло де Лоренцо и многими другими. Среди партнёров Варвары по камерному ансамблю прославленный квартет им. Бородина, Денис Мацуев, Константин Емельянов и другие.<br><br>
+            Варвара ведет активную концертную деятельность и принимает участие в музыкальных проектах и фестивалях, среди которых "Звёзды на Байкале" (Иркутск), Annecy – Classic (Франция), Antalya piano festival (Турция), "ArtDialog" (Швейцария), "Russian Day" (Бразилия, Франция), Дни Москвы (Китай, Франция, Словения) и др.<br><br>
+            В ноябре 2018 года Варвара получила премию и почётное звание "Молодые дарования России". Также она является стипендиатом фондов Владимира Спивакова, "Новые имена" и "Фонда Валерия Золотухина".<br><br>
+            Среди многочисленных достижений юной пианистки особо выделяются премии международного конкурса Дениса Мацуева "Grand piano competition", телеконкурса "Щелкунчик" и международного конкурса "Nota Bene!". Успехи Варвары были отмечены наградами многих международных конкурсов, среди них "21st Century Art" (Украина), "Prima Artisrs" (Нью-Йорк), "Astana Piano Passion" (Казахстан) и других. Варвара является обладательницей Гран-при международных интернет-конкурсов в Мексике и Сербии.<br><br>
+            Варвара Кутузова родилась в 2003 год. Музыкой начала заниматься c 4 лет, а первое выступление с оркестром состоялось уже в 6 лет. До 2019 года училась в Центральной музыкальной школе при Московской консерватории в классе М.А. Марченко, а в настоящее время продолжает обучение в классе Заслуженного деятеля искусств РФ, заслуженного артиста РФ М.С. Хохлова в Московском музыкальном колледже им. Гнесиных.`
         }
     },
     startPage: {

@@ -2,7 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { useTranslation } from "react-i18next";
 
-import homeImage from "assets/images/base/home.jpg";
+import homeImage from "assets/images/base/8zh.jpg";
 
 import Quote from "../components/Quote";
 import data from "../data";
