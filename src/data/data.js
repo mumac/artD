@@ -451,8 +451,7 @@ const data = {
                 ru: {
                     label: "П.И.Чайковский",
                     trackName: "Тема с вариациями",
-                    description: `Москва, ЦМШ
-                    январь 2019`
+                    description: "Москва, ЦМШ январь 2019"
                 }
             }
         ]
@@ -518,7 +517,7 @@ const data = {
                 toTickets: "https://juniormusictour.ru/#grafik",
                 en: {
                     place: "Junior Music Tour \nConcert with orchestra",
-                    location: "Conservatory Big Hall,\nMoscow",
+                    location: "Conservatory Big Concert Hall,\nMoscow",
                     buttonText: "Info"
                 },
                 ru: {
@@ -657,12 +656,12 @@ const data = {
         en: {
             quotes: [
                 {
-                    text: '"Varvara Kutuzova is a person of original genius, in my opinion"',
+                    text: "Varvara Kutuzova is a person of original genius, in my opinion",
                     author: "- Denis Matsuev"
                 },
                 {
-                    text: '"A lot of people play the piano but there are few who make others listen to them. Varvara is exactly among them"',
-                    author: '- Nikolay Lugansky'
+                    text: "A lot of people play the piano but there are few who make others listen to them. Varvara is exactly among them",
+                    author: "- Nikolay Lugansky"
                 },
             ],
             bioText: `<b>Varvara Kutuzova</b> is a young Russian pianist, winner of many national and international music competitions.<br/><br/>
@@ -676,12 +675,12 @@ const data = {
         ru: {
             quotes: [
                 {
-                    text: 'Варя Кутузова – абсолютно уникальный самородок, на мой взгляд!',
+                    text: "Варя Кутузова – абсолютно уникальный самородок, на мой взгляд!",
                     author: "- Денис Мацуев"
                 },
                 {
-                    text: 'Многие играют на фортепиано, но заставляют себя слушать – единицы. Варя из их числа!',
-                    author: '- Николай Луганский'
+                    text: "Многие играют на фортепиано, но заставляют себя слушать – единицы. Варя из их числа!",
+                    author: "- Николай Луганский"
                 },
             ],
             bioText: `<b>Варвара Кутузова</b> – молодая российская пианистка, лауреат всероссийских и международных музыкальных конкурсов.<br><br>
@@ -696,7 +695,7 @@ const data = {
         en: {
             quotes: [
                 {
-                    text: '"Varvara Kutuzova is a wonderful young pianist. She is a lively and modern young girl in interpersonal relations but totally different on stage - serious, deep, thoughtful, with her own character, dramatism, fine lyrics, sincerity, spirit and drive"',
+                    text: "Varvara Kutuzova is a wonderful young pianist. She is a lively and modern young girl in interpersonal relations but totally different on stage - serious, deep, thoughtful, with her own character, dramatism, fine lyrics, sincerity, spirit and drive",
                     author: "- Boris Berezovsky"
                 },
             ],
@@ -704,7 +703,7 @@ const data = {
         ru: {
             quotes: [
                 {
-                    text: '"Варвара Кутузова – замечательная молодая пианистка: живая и современная юная девушка в общении и совершенно другая на сцене - серьёзная, глубокая, вдумчивая, со своим почерком, драматизмом, тонкой лирикой, искренностью и куражом."',
+                    text: "Варвара Кутузова – замечательная молодая пианистка: живая и современная юная девушка в общении и совершенно другая на сцене - серьёзная, глубокая, вдумчивая, со своим почерком, драматизмом, тонкой лирикой, искренностью и куражом.",
                     author: "- Борис Березовский"
                 },
             ],
