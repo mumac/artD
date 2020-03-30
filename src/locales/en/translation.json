@@ -1,56 +1,67 @@
 {
-    "base": {
-        "navbar": {
-            "link": {
-                "home": "home",
-                "about": "about",
-                "tour": "tour",
-                "music": "music",
-                "gallery": "gallery",
-                "epk": "press-kit",
-                "contact": "contact"
-            }
-        },
-        "footer": {
-            "artist_name": "ArtDialog Agency"
-        }
+  "base": {
+    "navbar": {
+      "link": {
+        "home": "home",
+        "about": "about",
+        "tour": "tour",
+        "music": "music",
+        "gallery": "gallery",
+        "press": "press-kit",
+        "contact": "contact"
+      }
     },
-    "start_page": {
-        "seo_title": "Varvara Kutuzova",
-        "title": "Varvara\nKutuzova",
-        "subtitle": "// \n piano"
-    },
-    "about_page": {
-        "seo_title": "About",
-        "title": "About"
-    },
-    "contact_page": {
-        "seo_title": "Contact",
-        "title": "Contact",
-        "contact_1": {
-            "name": "World management | ArtDialog Agency",
-            "email": "vasylyev@artdialog.ch",
-            "phone": "+123-456-7890"
-        },
-        "contact_2": {
-            "name": "Russia management | Kate Goltzman",
-            "email": "info@бла-бла.com",
-            "phone": "+123-456-7890"
-        }
-    },
-    "gallery_page": {
-        "seo_title": "Gallery",
-        "title": "Gallery"
-    },
-    "music_page": {
-        "seo_title": "Media",
-        "seo_description": "Media Description",
-        "title": "Media"
-    },
-    "tour_page": {
-        "seo_title": "Tour",
-        "seo_description": "Tour Description",
-        "title": "Concerts",
-        "button" : "Tickets"
+    "footer": {
+      "artist_name": "ArtDialog Agency"
     }
+  },
+  "start_page": {
+    "seo_title": "Varvara Kutuzova",
+    "title": "Varvara\nKutuzova",
+    "subtitle": "// \n piano"
+  },
+  "about_page": {
+    "seo_title": "About",
+    "title": "About"
+  },
+  "contact_page": {
+    "seo_title": "Contact",
+    "title": "Contact",
+    "contact_1": {
+      "name": "World management | ArtDialog Agency",
+      "email": "vasylyev@artdialog.ch",
+      "phone": "+123-456-7890"
+    },
+    "contact_2": {
+      "name": "Russia management | Kate Goltzman",
+      "email": "info@бла-бла.com",
+      "phone": "+123-456-7890"
+    }
+  },
+  "gallery_page": {
+    "seo_title": "Gallery",
+    "title": "Gallery"
+  },
+  "music_page": {
+    "seo_title": "Media",
+    "seo_description": "Media Description",
+    "title": "Media"
+  },
+  "tour_page": {
+    "seo_title": "Tour",
+    "seo_description": "Tour Description",
+    "title": "Concerts",
+    "button": "Tickets"
+  },
+  "press_page": {
+    "seo_title": "Press Kit",
+    "seo_description": "Press Kit",
+    "title": "Press",
+    "hi_res_link_text": "Download Hi-Res Photos >>",
+    "riders": "Riders",
+    "representation": "Representation",
+    "bio_title": "Bio",
+    "riders_title": "Riders",
+    "representation_title": "Representation"
+  }
 }

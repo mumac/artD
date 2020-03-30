@@ -708,6 +708,151 @@ const data = {
                 },
             ],
         }
+    },
+    pressKit: {
+        highResPhoto: {
+            url: "/",
+            text: {
+                en: "Download Hi-Res Photos >>",
+                ru: "Скачать фотографии >>"
+            }
+        },
+        bioLinks: [
+            {
+                url: "/",
+                text: {
+                    en: "Download Full Bio",
+                    ru: "Скачать полную биографию"
+                }
+            },
+            {
+                url: "/",
+                text: {
+                    en: "Download Press Release",
+                    ru: "Скачать пресс-релиз"
+                }
+            },
+            {
+                url: "/",
+                text: {
+                    en: "Download Press Quotes",
+                    ru: "Скачать отзывы"
+                }
+            }
+        ],
+        shortBioText: {
+            en: {
+                label: "Short bio",
+                text: `I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
+                Feel free to drag and drop me anywhere you like on your page.
+                I’m a great place for you to tell a story and let your users know a little more about you.`
+            },
+            ru: {
+                label: "Короткая биография",
+                text: `I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
+                Feel free to drag and drop me anywhere you like on your page.
+                I’m a great place for you to tell a story and let your users know a little more about you.`
+            }
+        },
+        bioItems: [
+            {
+                en: "Origin:  San Francisco, CA",
+                ru: "Origin:  San Francisco, CA"
+            },
+            {
+                en: "Genres:  Folk pop",
+                ru: "Genres:  Folk pop"
+            },
+            {
+                en: "Years Active:  2012- Present",
+                ru: "Years Active:  2012- Present"
+            },
+            {
+                en: "Label:  Wix Records",
+                ru: "Label:  Wix Records"
+            },
+            {
+                en: "Website:  Wix.com",
+                ru: "Website:  Wix.com"
+            },
+        ],
+        riderItems: [
+            {
+                url: "/",
+                en: {
+                    buttonText: "Download",
+                    text: "Set List"
+                },
+                ru: {
+                    buttonText: "Cкачать",
+                    text: "Set List"
+                }
+            },
+            {
+                url: "/",
+                en: {
+                    buttonText: "Download",
+                    text: "Tech Rider"
+                },
+                ru: {
+                    buttonText: "Cкачать",
+                    text: "Tech Rider"
+                }
+            },
+            {
+                url: "/",
+                en: {
+                    buttonText: "Download",
+                    text: "Hospitality Rider"
+                },
+                ru: {
+                    buttonText: "Cкачать",
+                    text: "Hospitality Rider"
+                }
+            }
+        ],
+        representationItems: [
+            {
+                en: {
+                    label: "Label:",
+                    text: "Wix Records, Jake Coldham | info@mysite.com"
+                },
+                ru: {
+                    label: "Label:",
+                    text: "Wix Records, Jake Coldham | info@mysite.com"
+                }
+            },
+            {
+                en: {
+                    label: "Management:",
+                    text: "Wix Records, Jake Coldham | info@mysite.com"
+                },
+                ru: {
+                    label: "Management:",
+                    text: "Wix Records, Jake Coldham | info@mysite.com"
+                }
+            },
+            {
+                en: {
+                    label: "Booking:",
+                    text: "The Bookerz, Daniel Ku | info@mysite.com"
+                },
+                ru: {
+                    label: "Booking:",
+                    text: "The Bookerz, Daniel Ku | info@mysite.com"
+                }
+            },
+            {
+                en: {
+                    label: "PR:",
+                    text: "That Girl Pr, Sarah Brookstone | info@mysite.com"
+                },
+                ru: {
+                    label: "PR:",
+                    text: "That Girl Pr, Sarah Brookstone | info@mysite.com"
+                }
+            }
+        ]
     }
 };
 

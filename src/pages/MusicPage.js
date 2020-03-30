@@ -19,7 +19,7 @@ function MusicPage() {
                 <meta name="description" content={t("music_page.seo_description")} />
             </Helmet>
             <div className="content fade-in content-music">
-                <div className="title-block">
+                <div className="block block-main-title">
                     <div className="title-wrap">
                         <h1 className="title">
                             {t("music_page.title")}

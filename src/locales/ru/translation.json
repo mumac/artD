@@ -1,56 +1,67 @@
 {
-    "base": {
-        "navbar": {
-            "link": {
-                "home": "главная",
-                "about": "био",
-                "tour": "концерты",
-                "music": "медиа",
-                "gallery": "галерея",
-                "epk": "пресс-кит",
-                "contact": "контакт"
-            }
-        },
-        "footer": {
-            "artist_name": "ArtDialog Agency"
-        }
+  "base": {
+    "navbar": {
+      "link": {
+        "home": "главная",
+        "about": "био",
+        "tour": "концерты",
+        "music": "медиа",
+        "gallery": "галерея",
+        "press": "пресс-кит",
+        "contact": "контакт"
+      }
     },
-    "start_page": {
-        "seo_title": "Варвара Кутузова",
-        "title": "Варвара\n Кутузова",
-        "subtitle": "// \n фортепиано"
-    },
-    "about_page": {
-        "seo_title": "БИО",
-        "title": "Биография"
-    },
-    "contact_page": {
-        "seo_title": "Контакт",
-        "title": "Контакт",
-        "contact_1": {
-            "name": "World management | ArtDialog Agency",
-            "email": "vasylyev@artdialog.ch",
-            "phone": "+123-456-7890"
-        },
-       "contact_2": {
-            "name": "По России | Катя Гольцман",
-            "email": "info@бла-бла.com ",
-            "phone": "+123-456-7890"
-        }
-    },
-    "gallery_page": {
-        "seo_title": "Галерея",
-        "title": "Галерея"
-    },
-    "music_page": {
-        "seo_title": "Медиа",
-        "seo_description": "Music Description",
-        "title": "Медиа"
-    },
-    "tour_page": {
-        "seo_title": "Концерты",
-        "seo_description": "Tour Description",
-        "title": "Концерты",
-        "button" : "Билеты"
+    "footer": {
+      "artist_name": "ArtDialog Agency"
     }
+  },
+  "start_page": {
+    "seo_title": "Варвара Кутузова",
+    "title": "Варвара\n Кутузова",
+    "subtitle": "// \n фортепиано"
+  },
+  "about_page": {
+    "seo_title": "БИО",
+    "title": "Биография"
+  },
+  "contact_page": {
+    "seo_title": "Контакт",
+    "title": "Контакт",
+    "contact_1": {
+      "name": "World management | ArtDialog Agency",
+      "email": "vasylyev@artdialog.ch",
+      "phone": "+123-456-7890"
+    },
+    "contact_2": {
+      "name": "По России | Катя Гольцман",
+      "email": "info@бла-бла.com ",
+      "phone": "+123-456-7890"
+    }
+  },
+  "gallery_page": {
+    "seo_title": "Галерея",
+    "title": "Галерея"
+  },
+  "music_page": {
+    "seo_title": "Медиа",
+    "seo_description": "Music Description",
+    "title": "Медиа"
+  },
+  "tour_page": {
+    "seo_title": "Концерты",
+    "seo_description": "Tour Description",
+    "title": "Концерты",
+    "button": "Билеты"
+  },
+  "press_page": {
+    "seo_title": "Пресс-кит",
+    "seo_description": "Пресс-кит",
+    "title": "Пресса",
+    "hi_res_link_text": "Download Hi-Res Photos >>",
+    "riders": "Riders",
+    "representation": "Representation",
+    "bio_title": "Bio",
+    "riders_title": "Riders",
+    "representation_title": "Representation"
+  }
 }

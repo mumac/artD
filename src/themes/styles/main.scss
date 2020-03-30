@@ -57,6 +57,7 @@ img {
 a {
     cursor: pointer;
     color: $link-color;
+    text-decoration: none;
 
     &:hover {
         color: $link-active-color;
@@ -101,7 +102,23 @@ a {
     cursor: pointer;
 }
 
-.title-block {
+h2 {
+    &.title {
+        font-family: $font-family-second;
+        font-size: (20 / 16) + rem;
+        font-weight: 500;
+        color: $text-color-secondary;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+    }
+}
+
+.main-banner {
+    position: relative;
+}
+
+.block-main-title {
     position: absolute;
     top: 220px;
     left: 0;
@@ -216,6 +233,7 @@ a {
 
 .contact-name {
     font-family: $font-family-second;
+    font-size: (20 / 16) + rem;
     font-weight: 300;
     color: $text-color-secondary;
     margin-bottom: 10px;
@@ -355,6 +373,170 @@ a {
                 background-color: #000;
                 color: #fff;
             }
+        }
+    }
+}
+
+.content-press {
+    .high-res-image-link {
+        position: absolute;
+        left: -15px;
+        bottom: 10%;
+        padding: 15px;
+        background-color: #fff;
+    }
+
+    h2.title {
+        font-size: (24 / 16) + rem;
+        margin: 60px 0 30px;
+
+        @include respond(sm) {
+            margin: 30px 0 15px;
+        }
+    }
+
+    .block-bio {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bio-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 100%;
+
+        .left {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 0 0 50%;
+            padding-right: 20px;
+
+            @include respond(sm) {
+                flex: 0 0 100%;
+            }
+        }
+
+        .right {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 0 0 50%;
+            align-content: flex-start;
+            padding-right: 20px;
+
+            @include respond(sm) {
+                flex: 0 0 100%;
+            }
+        }
+    }
+
+    .bio-items {
+        display: flex;
+        flex: 0 0 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 30px;
+
+        .bio-item {
+            font-family: $font-family-second;
+            line-height: 1.3em;
+            font-size: (18 / 16) + rem;
+            letter-spacing: 1px;
+            margin: 5px 0;
+
+            &::before {
+                content: '/\/';
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .bio-links {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+
+        @include respond(sm) {
+            margin-bottom: 30px;
+        }
+
+        a {
+            flex: 2 1 auto;
+            padding: 8px 24px;
+            border: 1px solid $text-color-secondary;
+            margin-bottom: 15px;
+
+            &:hover {
+                color: $text-color-secondary;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .bio-text-label {
+        font-family: $font-family-second;
+        font-size: (18 / 16) + rem;
+        font-weight: 600;
+        margin: 5px 0 20px;
+        letter-spacing: 1px;
+    }
+
+    .bio-text {
+        line-height: 1.8;
+    }
+
+    .block-riders {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+
+        .left {
+            flex: 0 0 40%;
+            padding-right: 20px;
+
+            @include respond(sm) {
+                flex: 0 0 100%;
+                padding: 0;
+            }
+        }
+
+        .right {
+            flex: 0 0 60%;
+            align-content: flex-start;
+            padding-right: 20px;
+
+            @include respond(sm) {
+                flex: 0 0 100%;
+                padding: 0;
+            }
+        }
+    }
+
+    .rider-item {
+        display: flex;
+        align-items: baseline;
+
+        a {
+            padding: 8px 24px;
+            border: 1px solid $text-color-secondary;
+            margin: 0 15px 15px 0;
+
+            &:hover {
+                color: $text-color-secondary;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .representation-item {
+        font-family: $font-family-second;
+        font-size: (18 / 16) + rem;
+        margin: 5px 0 20px;
+
+        .label {
+            color: $text-color-secondary;
+            margin-right: 10px;
         }
     }
 }

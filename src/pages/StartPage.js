@@ -22,7 +22,7 @@ function StartPage() {
                 <div className="main-banner">
                     <img src={homeImage} alt="" className="main-photo" />
                 </div>
-                <div className="title-block">
+                <div className="block block-main-title">
                     <div className="title-wrap">
                         <h1 className="title">
                             {t("start_page.title")}
