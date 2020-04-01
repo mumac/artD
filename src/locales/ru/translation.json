@@ -56,12 +56,12 @@
   "press_page": {
     "seo_title": "Пресс-кит",
     "seo_description": "Пресс-кит",
-    "title": "Пресса",
+    "title": "Пресс-кит",
     "hi_res_link_text": "Download Hi-Res Photos >>",
     "riders": "Riders",
     "representation": "Representation",
-    "bio_title": "Bio",
-    "riders_title": "Riders",
-    "representation_title": "Representation"
+    "bio_title": "БИО",
+    "riders_title": "Райдер",
+    "representation_title": "Представители"
   }
 }

@@ -714,7 +714,7 @@ const data = {
             url: "/",
             text: {
                 en: "Download Hi-Res Photos >>",
-                ru: "Скачать фотографии >>"
+                ru: "Скачать фотографии в высоком разрешении >>"
             }
         },
         bioLinks: [
@@ -749,9 +749,8 @@ const data = {
             },
             ru: {
                 label: "Короткая биография",
-                text: `I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                Feel free to drag and drop me anywhere you like on your page.
-                I’m a great place for you to tell a story and let your users know a little more about you.`
+                text: `<b>Варвара Кутузова</b> – молодая российская пианистка, лауреат всероссийских и международных музыкальных конкурсов.<br><br>
+                Варвара Кутузова активно концертирует в крупнейших залах мира и в качестве солистки часто выступает с ведущими оркестрами России, Европы и Америки. Варвара тесно сотрудничает с такими дирижерами, как Владимир Спиваков, Владимир Федосеев, Александр Сладковский, Анна Скрылева, Джанкарло де Лоренцо и многими другими. Среди партнёров Варвары по камерному ансамблю прославленный квартет им. Бородина, Денис Мацуев, Константин Емельянов и другие.`
             }
         },
         bioItems: [
