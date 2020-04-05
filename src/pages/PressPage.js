@@ -50,7 +50,7 @@ function PressPage() {
                             <div className="bio-links">
                                 {pressKit.bioLinks.map((item, index) => (
                                     <Fragment key={index}>
-                                        {item.url &&
+                                        {item.fileName &&
                                             <a href={process.env.PUBLIC_URL + "/press/files/" + item.fileName} className="bio-link" target="_blank" rel="noopener noreferrer">
                                                 {item.text[currentLang]}
                                             </a>
@@ -78,7 +78,7 @@ function PressPage() {
                         <div className="riders">
                             {pressKit.riderItems.map((item, index) => (
                                 <Fragment key={index}>
-                                    {item.url &&
+                                    {item.fileName &&
                                         <div className="rider-item">
                                             <a href={process.env.PUBLIC_URL + "/press/files/" + item.fileName} alt={item[currentLang].text} target="_blank" rel="noopener noreferrer">
                                                 {item[currentLang].buttonText}
