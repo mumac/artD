@@ -2,7 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { useTranslation } from "react-i18next";
 
-import homeImage from "assets/images/base/tour.jpg";
+import mainImage from "assets/images/base/tour.jpg";
 
 import data from "../data";
 
@@ -20,7 +20,7 @@ function TourPage() {
             </Helmet>
             <div className="content fade-in content-tour">
                 <div className="main-banner">
-                    <img src={homeImage} alt="" className="main-photo" />
+                    <img src={mainImage} alt="" className="main-photo" />
                 </div>
                 <div className="block block-main-title">
                     <div className="title-wrap">

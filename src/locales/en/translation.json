@@ -63,5 +63,10 @@
     "bio_title": "Bio",
     "riders_title": "Riders",
     "representation_title": "Representation"
+  },
+  "images_page": {
+    "seo_title": "Images",
+    "seo_description": "High resolution images",
+    "title": "Images"
   }
 }

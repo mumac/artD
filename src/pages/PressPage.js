@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
 import Helmet from "react-helmet";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-import homeImage from "assets/images/base/press.jpg";
+import mainImage from "assets/images/base/press.jpg";
 
 import data from "../data";
 
@@ -19,11 +20,11 @@ function PressPage() {
             </Helmet>
             <div className="content fade-in content-press">
                 <div className="main-banner">
-                    <img src={homeImage} alt="" className="main-photo" />
+                    <img src={mainImage} alt="" className="main-photo" />
                     {pressKit?.highResPhoto?.url &&
-                        <a href="/" className="high-res-image-link" alt={pressKit.highResPhoto.text[currentLang]}>
+                        <Link to={pressKit?.highResPhoto?.url} className="high-res-image-link" alt={pressKit.highResPhoto.text[currentLang]}>
                             {pressKit.highResPhoto.text[currentLang]}
-                        </a>
+                        </Link>
                     }
                 </div>
                 <div className="block block-main-title">
@@ -50,7 +51,7 @@ function PressPage() {
                                 {pressKit.bioLinks.map((item, index) => (
                                     <Fragment key={index}>
                                         {item.url &&
-                                            <a href={item.url} className="bio-link">
+                                            <a href={process.env.PUBLIC_URL + "/press/files/" + item.fileName} className="bio-link" target="_blank" rel="noopener noreferrer">
                                                 {item.text[currentLang]}
                                             </a>
                                         }
@@ -79,7 +80,7 @@ function PressPage() {
                                 <Fragment key={index}>
                                     {item.url &&
                                         <div className="rider-item">
-                                            <a href={item.url} alt={item[currentLang].text}>
+                                            <a href={process.env.PUBLIC_URL + "/press/files/" + item.fileName} alt={item[currentLang].text} target="_blank" rel="noopener noreferrer">
                                                 {item[currentLang].buttonText}
                                             </a>
                                             <span>{item[currentLang].text}</span>

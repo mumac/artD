@@ -711,7 +711,7 @@ const data = {
     },
     pressKit: {
         highResPhoto: {
-            url: "/",
+            url: "/images",
             text: {
                 en: "Download Hi-Res Photos >>",
                 ru: "Скачать фотографии в высоком разрешении >>"
@@ -719,21 +719,21 @@ const data = {
         },
         bioLinks: [
             {
-                url: "/",
+                fileName: "Bio_1.pdf",
                 text: {
                     en: "Download Full Bio",
                     ru: "Скачать полную биографию"
                 }
             },
             {
-                url: "/",
+                fileName: "Bio_1.pdf",
                 text: {
                     en: "Download Press Release",
                     ru: "Скачать пресс-релиз"
                 }
             },
             {
-                url: "/",
+                fileName: "Bio_1.pdf",
                 text: {
                     en: "Download Press Quotes",
                     ru: "Скачать отзывы"
@@ -777,7 +777,7 @@ const data = {
         ],
         riderItems: [
             {
-                url: "/",
+                fileName: "rider_1.pdf",
                 en: {
                     buttonText: "Download",
                     text: "Set List"
@@ -788,7 +788,7 @@ const data = {
                 }
             },
             {
-                url: "/",
+                fileName: "rider_1.pdf",
                 en: {
                     buttonText: "Download",
                     text: "Tech Rider"
@@ -799,7 +799,7 @@ const data = {
                 }
             },
             {
-                url: "/",
+                fileName: "rider_1.pdf",
                 en: {
                     buttonText: "Download",
                     text: "Hospitality Rider"
@@ -851,6 +851,29 @@ const data = {
                     text: "That Girl Pr, Sarah Brookstone | info@mysite.com"
                 }
             }
+        ]
+    },
+    hiResImages: {
+        downloadName: {
+            en: "Download",
+            ru: "Скачать"
+        },
+        items: [
+            {
+                previewfileName: "00001.jpg",
+                fileName: "00001.jpg",
+                alt: ""
+            },
+            {
+                previewfileName: "00002.jpg",
+                fileName: "00002.jpg",
+                alt: ""
+            },
+            {
+                previewfileName: "00003.jpg",
+                fileName: "00003.jpg",
+                alt: ""
+            },
         ]
     }
 };

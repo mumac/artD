@@ -2,7 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { useTranslation } from "react-i18next";
 
-import homeImage from "assets/images/base/8zh.jpg";
+import mainImage from "assets/images/base/8zh.jpg";
 
 import Quote from "../components/Quote";
 import data from "../data";
@@ -20,7 +20,7 @@ function StartPage() {
             </Helmet>
             <div className="content content-home fade-in">
                 <div className="main-banner">
-                    <img src={homeImage} alt="" className="main-photo" />
+                    <img src={mainImage} alt="" className="main-photo" />
                 </div>
                 <div className="block block-main-title">
                     <div className="title-wrap">

@@ -1,4 +1,4 @@
-import homeImage from "assets/images/base/about.jpg";
+import mainImage from "assets/images/base/about.jpg";
 import React from "react";
 import Helmet from "react-helmet";
 import { useTranslation } from "react-i18next";
@@ -19,7 +19,7 @@ function AboutPage() {
             </Helmet>
             <div className="content fade-in content-about">
                 <div className="main-banner">
-                    <img src={homeImage} alt="" className="main-photo" />
+                    <img src={mainImage} alt="" className="main-photo" />
                 </div>
                 <div className="block block-main-title">
                     <div className="title-wrap">

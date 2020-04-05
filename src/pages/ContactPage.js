@@ -2,7 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { useTranslation } from "react-i18next";
 
-import homeImage from "assets/images/base/contact.jpg";
+import mainImage from "assets/images/base/contact.jpg";
 
 function ContactPage() {
     const { t } = useTranslation();
@@ -15,7 +15,7 @@ function ContactPage() {
             </Helmet>
             <div className="content fade-in content-contact">
                 <div className="main-banner">
-                    <img src={homeImage} alt="" className="main-photo" />
+                    <img src={mainImage} alt="" className="main-photo" />
                 </div>
                 <div className="block block-main-title">
                     <div className="title-wrap">
