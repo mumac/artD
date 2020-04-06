@@ -667,7 +667,7 @@ const data = {
             bioText: `<b>Varvara Kutuzova</b> is a young Russian pianist, winner of many national and international music competitions.<br/><br/>
             As a soloist, she frequently performs with orchestras such as the Russia National Philharmonic Orchestra, the "Moscow Virtuosi" Chamber Orchestra, the Tchaikovsky Grand Symphony Orchestra, the "New Russia" Symphony Orchestra, the Svetlanov State Academic Symphony Orchestra, the State Symphony Orchestra of the Republic of Tatarstan, the Chicago Philharmonic Orchestra and others. Varvara works closely with such conductors as Vladimir Spivakov, Vladimir Fedoseev, Alexander Sladkovsky, Anna Skryleva, Giancarlo de Lorenzo and many others. Varvara's chamber ensemble partners include the renowned Borodin quartet, Denis Matsuev, Konstantin Emelianov and others.<br/><br/>
             Varvara is active in concert life and takes part in music projects and festivals such as "Stars on Baikal" (Irkutsk), Annecy - Classic (France), "Antalya piano festival" (Turkey), "ArtDialog" (Switzerland), "Russian Day" (Brazil, France), "Days of Moscow" (China, France, Slovenia), etc.<br/><br/>
-            In November 2018 Varvara received the award and the honorary title "Young talents of Russia". She is also a scholarship holder of the Vladimir Spivakov Foundation, the "New Name"s Foundation and the "Valery Zolotukhin Foundation".<br/><br/>
+            In November 2018 Varvara received the award and the honorary title "Young talents of Russia". She is also a scholarship holder of the Vladimir Spivakov Foundation, the "New Names" Foundation and the "Valery Zolotukhin Foundation".<br/><br/>
             Varvara Kutuzova gives concerts in the largest halls of the world, including "Zaradye" Hall, Halls of the Moscow Conservatory, the Beethoven Hall of the Bolshoi Theatre of Russia, Moscow International House of Music, the Konzerthaus in Vienna, the Esperanza Iris Theatre in Tabasco, Millennium Park in Chicago and others.<br/><br/>
             Among her numerous awards the most important once include the "Grand Piano Competition", the "Nutcracker" Television Competition and the "Nota Bene!" International Competition. Varvara's achievements have been awarded at many international competitions, such as "21<sup>st</sup> Century Art" (Ukraine), "Prima Artisrs" (New York), "Astana Piano Passion" (Kazakhstan) and others. Varvara is a Grand Prix winner of the International Internet Music competitions in Mexico and Serbia.<br/><br/>
             Varvara Kutuzova was born in 2003. She started studying music at the age of 4 and her first performance with the orchestra took place at the age of 6. Till 2019 she studied at the Special Music School of the Moscow Conservatory a class of M.A. Marchenko and now she continues her studies in the class of the Honoured Artist of the Russian Federation M.S. Khokhlov at the Gnesins Music College.`
@@ -719,7 +719,7 @@ const data = {
         },
         bioLinks: [
             {
-                fileName: "Bio_1.pdf",
+                fileName: "VARVARA KUTUZOVA_en.pdf",
                 text: {
                     en: "Download Full Bio",
                     ru: "Скачать полную биографию"
@@ -728,8 +728,8 @@ const data = {
             {
                 fileName: "Bio_1.pdf",
                 text: {
-                    en: "Download Press Release",
-                    ru: "Скачать пресс-релиз"
+                    en: "Download Reprtoire",
+                    ru: "Скачать репертуар"
                 }
             },
             {
@@ -743,9 +743,8 @@ const data = {
         shortBioText: {
             en: {
                 label: "Short bio",
-                text: `I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
-                Feel free to drag and drop me anywhere you like on your page.
-                I’m a great place for you to tell a story and let your users know a little more about you.`
+                text: `Varvara Kutuzova is a young Russian pianist, winner of many national and international music competitions.<br><br>
+                As a soloist, she frequently performs with orchestras such as the Russia National Philharmonic Orchestra, the "Moscow Virtuosi" Chamber Orchestra, the Tchaikovsky Grand Symphony Orchestra, the "New Russia" Symphony Orchestra, the Svetlanov State Academic Symphony Orchestra, the State Symphony Orchestra of the Republic of Tatarstan, the Chicago Philharmonic Orchestra and others. Varvara works closely with such conductors as Vladimir Spivakov, Vladimir Fedoseev, Alexander Sladkovsky, Anna Skryleva, Giancarlo de Lorenzo and many others. Varvara's chamber ensemble partners include the renowned Borodin quartet, Denis Matsuev, Konstantin Emelianov and others.`
             },
             ru: {
                 label: "Короткая биография",
