@@ -81,9 +81,9 @@
     }
 
     .fullscreen-text-side {
-         flex: 0 0 30%;
+        flex: 0 0 100%;
         padding: 10px 40px 0 0;
-        
+        text-align: center;
 
         @include respond(sm) {
             flex: 0 0 100%;

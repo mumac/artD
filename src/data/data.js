@@ -941,38 +941,50 @@ const data = {
         },
         bioLinks: [
             {
-                fileName: "VARVARA KUTUZOVA_en.pdf",
-                text: {
-                    en: "Download Full Bio",
-                    ru: "Скачать полную биографию"
-                }
+                en: {
+                    fileName: "VARVARA_KUTUZOVA_en.pdf",
+                    text: "Download Full Bio",
+                },
+                ru: {
+                    fileName: "VARVARA_KUTUZOVA_ru.pdf",
+                    text: "Скачать полную биографию",
+                },
             },
             {
-                fileName: "Bio_1.pdf",
-                text: {
-                    en: "Download Reprtoire",
-                    ru: "Скачать репертуар"
-                }
+                en: {
+                    fileName: "Bio_1_en.pdf",
+                    text: "Download Repertoire",
+                },
+                ru: {
+                    fileName: "Bio_1_ru.pdf",
+                    text: "Скачать репертуар",
+                },
             },
             {
-                fileName: "Bio_1.pdf",
-                text: {
-                    en: "Download Press Quotes",
-                    ru: "Скачать отзывы"
-                }
+                en: {
+                    fileName: "Bio_1_en.pdf",
+                    text: "Download Quotes",
+                },
+                ru: {
+                    fileName: "Bio_1_ru.pdf",
+                    text: "Скачать отзывы",
+                },
             },
             {
-                fileName: "Bio_1.pdf",
-                text: {
-                    en: "Download Press Quotes",
-                    ru: "Скачать статьи"
-                }
-            }
+                en: {
+                    fileName: "Bio_1_en.pdf",
+                    text: "Download Press",
+                },
+                ru: {
+                    fileName: "Bio_1_ru.pdf",
+                    text: "Скачать статьи",
+                },
+            },
         ],
         shortBioText: {
             en: {
                 label: "",
-                text: `Varvara Kutuzova is a young Russian pianist, winner of many national and international music competitions.<br><br>
+                text: `<b>Varvara Kutuzova</b> is a young Russian pianist, winner of many national and international music competitions.<br><br>
                 As a soloist, she frequently performs with orchestras such as the Russia National Philharmonic Orchestra, the "Moscow Virtuosi" Chamber Orchestra, the Tchaikovsky Grand Symphony Orchestra, the "New Russia" Symphony Orchestra, the Svetlanov State Academic Symphony Orchestra, the State Symphony Orchestra of the Republic of Tatarstan, the Chicago Philharmonic Orchestra and others. Varvara works closely with such conductors as Vladimir Spivakov, Vladimir Fedoseev, Alexander Sladkovsky, Anna Skryleva, Giancarlo de Lorenzo and many others. Varvara's chamber ensemble partners include the renowned Borodin quartet, Denis Matsuev, Konstantin Emelianov and others.`
             },
             ru: {
@@ -1005,38 +1017,41 @@ const data = {
         ],
         riderItems: [
             /* {
-                fileName: "rider_1.pdf",
                 en: {
+                    fileName: "rider_1.pdf",
                     buttonText: "Download",
                     text: "Set List"
                 },
                 ru: {
+                    fileName: "rider_1.pdf",
                     buttonText: "Cкачать",
                     text: "Set List"
                 }
             },
             {
-                fileName: "rider_1.pdf",
                 en: {
+                    fileName: "rider_1.pdf",
                     buttonText: "Download",
                     text: "Tech Rider"
                 },
                 ru: {
+                    fileName: "rider_1.pdf",
                     buttonText: "Cкачать",
                     text: "Tech Rider"
                 }
             },
             {
-                fileName: "rider_1.pdf",
                 en: {
+                    fileName: "rider_1.pdf",
                     buttonText: "Download",
                     text: "Hospitality Rider"
                 },
                 ru: {
+                    fileName: "rider_1.pdf",
                     buttonText: "Cкачать",
                     text: "Hospitality Rider"
                 }
-            } */
+            }, */
         ],
         representationItems: [
             /* {
@@ -1101,6 +1116,26 @@ const data = {
                 previewfileName: "00003.jpg",
                 fileName: "HD00003.jpg",
                 alt: ""
+            },
+        ]
+    },
+    contacts: {
+        items: [
+            {
+                title: {
+                    en: "World management | ArtDialog Agency",
+                    ru: "Международный менеджмент | ArtDialog Agency"
+                },
+                email: "vasylyev@artdialog.ch",
+                phoneNumber: "+41763655316"
+            },
+            {
+                title: {
+                    en: "Russia management | Kate Goltzman",
+                    ru: "Менеджмент по России | Екатерина Гольцман"
+                },
+                email: "goltcmangroup@gmail.com",
+                phoneNumber: "+79685061438"
             },
         ]
     }

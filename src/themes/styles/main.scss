@@ -251,7 +251,7 @@ h2 {
         padding-bottom: 70px;
         margin-bottom: 21px;
         white-space: pre-line;
-        border-bottom: 1px solid #222;
+        //border-bottom: 1px solid #222;
     }
 
     .video {
@@ -393,7 +393,6 @@ h2 {
     h2.title {
         font-size: (24 / 16) + rem;
         margin: 60px 0 30px;
-
         @include respond(sm) {
             margin: 30px 0 15px;
         }
@@ -416,7 +415,6 @@ h2 {
             flex: 0 0 35%;
             align-content: flex-start;
             padding-right: 20px;
-
             @include respond(sm) {
                 flex: 0 0 100%;
             }
@@ -428,7 +426,6 @@ h2 {
             flex: 0 0 65%;
             align-content: flex-start;
             //padding-right: 20px;
-
             @include respond(sm) {
                 flex: 0 0 100%;
             }
@@ -461,7 +458,6 @@ h2 {
         flex-wrap: wrap;
         flex-direction: column;
         text-align: center;
-
         @include respond(sm) {
             margin-bottom: 30px;
         }
@@ -500,7 +496,6 @@ h2 {
         .left {
             flex: 0 0 40%;
             padding-right: 20px;
-
             @include respond(sm) {
                 flex: 0 0 100%;
                 padding: 0;
@@ -511,7 +506,6 @@ h2 {
             flex: 0 0 60%;
             align-content: flex-start;
             padding-right: 20px;
-
             @include respond(sm) {
                 flex: 0 0 100%;
                 padding: 0;
