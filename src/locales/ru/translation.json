@@ -28,14 +28,16 @@
     "seo_title": "Контакт",
     "title": "Контакт",
     "contact_1": {
-      "name": "World management | ArtDialog Agency",
+      "name": "Международный менеджмент | ArtDialog Agency",
+      "name_1": "Дмитрий Васильев",
       "email": "vasylyev@artdialog.ch",
-      "phone": "+123-456-7890"
+      "phone": "+41763655316"
     },
     "contact_2": {
-      "name": "По России | Катя Гольцман",
-      "email": "info@бла-бла.com ",
-      "phone": "+123-456-7890"
+      "name": "Менеджмент по России | DailyCulture Agency",
+      "name_1": "Екатерина Гольцман",
+      "email": "goltcmangroup@gmail.com",
+      "phone": "+79685061438"
     }
   },
   "gallery_page": {
@@ -45,7 +47,9 @@
   "music_page": {
     "seo_title": "Медиа",
     "seo_description": "Music Description",
-    "title": "Медиа"
+    "title": "Медиа",
+    "video_title": "VIDEO",
+    "audio_title": "АУДИО"
   },
   "tour_page": {
     "seo_title": "Концерты",
