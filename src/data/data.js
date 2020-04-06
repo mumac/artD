@@ -759,7 +759,7 @@ const data = {
                 },
                 ru: {
                     dateString: "12 июля\n - 3 авг.",
-                    place: "Академия Вебье",
+                    place: "Академия Вербье",
                     location: "г. Вербье,\nШвейцария",
                     buttonText: "Информация"
                 }
