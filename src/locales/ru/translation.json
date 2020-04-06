@@ -48,7 +48,7 @@
     "seo_title": "Медиа",
     "seo_description": "Music Description",
     "title": "Медиа",
-    "video_title": "VIDEO",
+    "video_title": "ВИДЕО",
     "audio_title": "АУДИО"
   },
   "tour_page": {
@@ -64,9 +64,9 @@
     "hi_res_link_text": "Download Hi-Res Photos >>",
     "riders": "Riders",
     "representation": "Representation",
-    "bio_title": "БИО",
-    "riders_title": "Райдер",
-    "representation_title": "Представители"
+    "bio_title": "",
+    "riders_title": "",
+    "representation_title": ""
   },
   "images_page": {
     "seo_title": "Images",

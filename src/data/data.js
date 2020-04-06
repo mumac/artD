@@ -19,7 +19,8 @@ const data = {
                 title: "Тут можно вписать название",
                 description: "А тут описание"
             }
-        }, {
+        }, 
+        {
             fileName: "00002.jpg",
             en: {
                 title: "",
@@ -29,7 +30,8 @@ const data = {
                 title: "Название",
                 description: "Или любой другой текст"
             }
-        }, {
+        }, 
+        {
             fileName: "00003.jpg",
             en: {
                 title: "",
@@ -39,7 +41,8 @@ const data = {
                 title: "название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00004.jpg",
             en: {
                 title: "",
@@ -49,7 +52,8 @@ const data = {
                 title: "название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00005.jpg",
             en: {
                 title: "",
@@ -59,7 +63,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00006.jpg",
             en: {
                 title: "",
@@ -69,7 +74,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00007.jpg",
             en: {
                 title: "",
@@ -79,7 +85,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00008.jpg",
             en: {
                 title: "",
@@ -89,7 +96,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00009.jpg",
             en: {
                 title: "",
@@ -99,7 +107,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00010.jpg",
             en: {
                 title: "",
@@ -109,7 +118,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        },
+        {
             fileName: "00011.jpg",
             en: {
                 title: "",
@@ -119,7 +129,8 @@ const data = {
                 title: "Другое название",
                 description: "Иногда приходится кланяться"
             }
-        }, {
+        }, 
+        {
             fileName: "00012.jpg",
             en: {
                 title: "",
@@ -129,7 +140,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00013.jpg",
             en: {
                 title: "",
@@ -139,7 +151,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00014.jpg",
             en: {
                 title: "",
@@ -149,7 +162,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00015.jpg",
             en: {
                 title: "",
@@ -159,7 +173,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00016.jpg",
             en: {
                 title: "",
@@ -169,7 +184,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00017.jpg",
             en: {
                 title: "",
@@ -179,7 +195,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00018.jpg",
             en: {
                 title: "",
@@ -189,7 +206,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00019.jpg",
             en: {
                 title: "",
@@ -199,7 +217,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00020.jpg",
             en: {
                 title: "",
@@ -209,7 +228,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00021.jpg",
             en: {
                 title: "",
@@ -219,7 +239,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00022.jpg",
             en: {
                 title: "",
@@ -229,7 +250,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00023.jpg",
             en: {
                 title: "",
@@ -239,7 +261,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00024.jpg",
             en: {
                 title: "",
@@ -259,7 +282,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        }, 
+        {
             fileName: "00026.jpg",
             en: {
                 title: "",
@@ -363,6 +387,204 @@ const data = {
                 description: ""
             }
         },
+        {
+            fileName: "0006.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Тут можно вписать название",
+                description: "А тут описание"
+            }
+        }, 
+        {
+            fileName: "0002.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Название",
+                description: "Или любой другой текст"
+            }
+        }, 
+        {
+            fileName: "0003.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "название",
+                description: ""
+            }
+        }, 
+        {
+            fileName: "0004.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "название",
+                description: ""
+            }
+        }, 
+        {
+            fileName: "0005.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        }, 
+        {
+            fileName: "0001.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        }, 
+        {
+            fileName: "0007.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        }, 
+        {
+            fileName: "0008.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        }, 
+        {
+            fileName: "0009.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        }, 
+        {
+            fileName: "0010.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        },
+        {
+            fileName: "0011.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: "Иногда приходится кланяться"
+            }
+        }, 
+        {
+            fileName: "0012.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        }, 
+        {
+            fileName: "0013.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        }, 
+        {
+            fileName: "0014.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        }, 
+        {
+            fileName: "0015.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        }, 
+        {
+            fileName: "0016.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        }, 
+        {
+            fileName: "0017.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        }, 
+        {
+            fileName: "0018.jpg",
+            en: {
+                title: "",
+                description: ""
+            },
+            ru: {
+                title: "Другое название",
+                description: ""
+            }
+        }, 
     ],
     music: {
         albumTitle: {
@@ -738,22 +960,29 @@ const data = {
                     en: "Download Press Quotes",
                     ru: "Скачать отзывы"
                 }
+            },
+            {
+                fileName: "Bio_1.pdf",
+                text: {
+                    en: "Download Press Quotes",
+                    ru: "Скачать статьи"
+                }
             }
         ],
         shortBioText: {
             en: {
-                label: "Short bio",
+                label: "",
                 text: `Varvara Kutuzova is a young Russian pianist, winner of many national and international music competitions.<br><br>
                 As a soloist, she frequently performs with orchestras such as the Russia National Philharmonic Orchestra, the "Moscow Virtuosi" Chamber Orchestra, the Tchaikovsky Grand Symphony Orchestra, the "New Russia" Symphony Orchestra, the Svetlanov State Academic Symphony Orchestra, the State Symphony Orchestra of the Republic of Tatarstan, the Chicago Philharmonic Orchestra and others. Varvara works closely with such conductors as Vladimir Spivakov, Vladimir Fedoseev, Alexander Sladkovsky, Anna Skryleva, Giancarlo de Lorenzo and many others. Varvara's chamber ensemble partners include the renowned Borodin quartet, Denis Matsuev, Konstantin Emelianov and others.`
             },
             ru: {
-                label: "Короткая биография",
+                label: "",
                 text: `<b>Варвара Кутузова</b> – молодая российская пианистка, лауреат всероссийских и международных музыкальных конкурсов.<br><br>
                 Варвара Кутузова активно концертирует в крупнейших залах мира и в качестве солистки часто выступает с ведущими оркестрами России, Европы и Америки. Варвара тесно сотрудничает с такими дирижерами, как Владимир Спиваков, Владимир Федосеев, Александр Сладковский, Анна Скрылева, Джанкарло де Лоренцо и многими другими. Среди партнёров Варвары по камерному ансамблю прославленный квартет им. Бородина, Денис Мацуев, Константин Емельянов и другие.`
             }
         },
         bioItems: [
-            {
+           /*  {
                 en: "Origin:  San Francisco, CA",
                 ru: "Origin:  San Francisco, CA"
             },
@@ -772,10 +1001,10 @@ const data = {
             {
                 en: "Website:  Wix.com",
                 ru: "Website:  Wix.com"
-            },
+            }, */
         ],
         riderItems: [
-            {
+            /* {
                 fileName: "rider_1.pdf",
                 en: {
                     buttonText: "Download",
@@ -807,10 +1036,10 @@ const data = {
                     buttonText: "Cкачать",
                     text: "Hospitality Rider"
                 }
-            }
+            } */
         ],
         representationItems: [
-            {
+            /* {
                 en: {
                     label: "Label:",
                     text: "Wix Records, Jake Coldham | info@mysite.com"
@@ -849,7 +1078,7 @@ const data = {
                     label: "PR:",
                     text: "That Girl Pr, Sarah Brookstone | info@mysite.com"
                 }
-            }
+            } */
         ]
     },
     hiResImages: {
@@ -860,17 +1089,17 @@ const data = {
         items: [
             {
                 previewfileName: "00001.jpg",
-                fileName: "00001.jpg",
+                fileName: "HD00001.jpg",
                 alt: ""
             },
             {
                 previewfileName: "00002.jpg",
-                fileName: "00002.jpg",
+                fileName: "HD00002.jpg",
                 alt: ""
             },
             {
                 previewfileName: "00003.jpg",
-                fileName: "00003.jpg",
+                fileName: "HD00003.jpg",
                 alt: ""
             },
         ]

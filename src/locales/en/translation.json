@@ -64,9 +64,9 @@
     "hi_res_link_text": "Download Hi-Res Photos >>",
     "riders": "Riders",
     "representation": "Representation",
-    "bio_title": "Bio",
-    "riders_title": "Riders",
-    "representation_title": "Representation"
+    "bio_title": "",
+    "riders_title": "",
+    "representation_title": ""
   },
   "images_page": {
     "seo_title": "Images",

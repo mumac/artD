@@ -402,6 +402,7 @@ h2 {
     .block-bio {
         display: flex;
         flex-wrap: wrap;
+        padding-top: 40px;
     }
 
     .bio-content {
@@ -412,7 +413,7 @@ h2 {
         .left {
             display: flex;
             flex-wrap: wrap;
-            flex: 0 0 50%;
+            flex: 0 0 35%;
             align-content: flex-start;
             padding-right: 20px;
 
@@ -424,9 +425,9 @@ h2 {
         .right {
             display: flex;
             flex-wrap: wrap;
-            flex: 0 0 50%;
+            flex: 0 0 65%;
             align-content: flex-start;
-            padding-right: 20px;
+            //padding-right: 20px;
 
             @include respond(sm) {
                 flex: 0 0 100%;
