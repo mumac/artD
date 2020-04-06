@@ -4,7 +4,7 @@
       "link": {
         "home": "home",
         "about": "about",
-        "tour": "tour",
+        "tour": "concerts",
         "music": "music",
         "gallery": "gallery",
         "press": "press-kit",
@@ -28,14 +28,16 @@
     "seo_title": "Contact",
     "title": "Contact",
     "contact_1": {
-      "name": "World management | ArtDialog Agency",
+      "name": "Международный менеджмент | ArtDialog Agency",
+      "name_1": "Dimitri Vasylyev",
       "email": "vasylyev@artdialog.ch",
-      "phone": "+123-456-7890"
+      "phone": "+41763655316"
     },
     "contact_2": {
-      "name": "Russia management | Kate Goltzman",
-      "email": "info@бла-бла.com",
-      "phone": "+123-456-7890"
+      "name": "Менеджмент по России | DailyCulture Agency",
+      "name_1": "Ekaterina Goltcman",
+      "email": "goltcmangroup@gmail.com",
+      "phone": "+79685061438"
     }
   },
   "gallery_page": {

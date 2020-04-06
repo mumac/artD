@@ -29,8 +29,11 @@ function ContactPage() {
                         <div className="contact-name">
                             {t("contact_page.contact_1.name")}
                         </div>
+                        <div className="contact-name">
+                            {t("contact_page.contact_1.name_1")}
+                        </div>
                         <div className="contact-email">
-                            {t("contact_page.contact_1.email")}
+                            {t("contact_page.contact_1.email <a href="mailto:someone@example.com">Send email</a>"),}
                         </div>
                         <div className="contact-phone">
                             {t("contact_page.contact_1.phone")}
@@ -39,6 +42,9 @@ function ContactPage() {
                     <div className="contact contact_2">
                         <div className="contact-name">
                             {t("contact_page.contact_2.name")}
+                        </div>
+                        <div className="contact-name">
+                            {t("contact_page.contact_2.name_1")}
                         </div>
                         <div className="contact-email">
                             {t("contact_page.contact_2.email")}
