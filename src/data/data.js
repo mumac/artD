@@ -19,7 +19,7 @@ const data = {
                 title: "Тут можно вписать название",
                 description: "А тут описание"
             }
-        }, 
+        },
         {
             fileName: "00002.jpg",
             en: {
@@ -30,7 +30,7 @@ const data = {
                 title: "Название",
                 description: "Или любой другой текст"
             }
-        }, 
+        },
         {
             fileName: "00003.jpg",
             en: {
@@ -41,7 +41,7 @@ const data = {
                 title: "название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00004.jpg",
             en: {
@@ -52,7 +52,7 @@ const data = {
                 title: "название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00005.jpg",
             en: {
@@ -63,7 +63,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00006.jpg",
             en: {
@@ -74,7 +74,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00007.jpg",
             en: {
@@ -85,7 +85,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00008.jpg",
             en: {
@@ -96,7 +96,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00009.jpg",
             en: {
@@ -107,7 +107,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00010.jpg",
             en: {
@@ -129,7 +129,7 @@ const data = {
                 title: "Другое название",
                 description: "Иногда приходится кланяться"
             }
-        }, 
+        },
         {
             fileName: "00012.jpg",
             en: {
@@ -140,7 +140,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00013.jpg",
             en: {
@@ -151,7 +151,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00014.jpg",
             en: {
@@ -162,7 +162,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00015.jpg",
             en: {
@@ -173,7 +173,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00016.jpg",
             en: {
@@ -184,7 +184,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00017.jpg",
             en: {
@@ -195,7 +195,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00018.jpg",
             en: {
@@ -206,7 +206,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00019.jpg",
             en: {
@@ -217,7 +217,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00020.jpg",
             en: {
@@ -228,7 +228,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00021.jpg",
             en: {
@@ -239,7 +239,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00022.jpg",
             en: {
@@ -250,7 +250,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00023.jpg",
             en: {
@@ -261,7 +261,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00024.jpg",
             en: {
@@ -272,7 +272,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        },
+        {
             fileName: "00025.jpg",
             en: {
                 title: "",
@@ -282,7 +283,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "00026.jpg",
             en: {
@@ -315,7 +316,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        },
+        {
             fileName: "00029.jpg",
             en: {
                 title: "",
@@ -325,7 +327,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        },
+        {
             fileName: "00030.jpg",
             en: {
                 title: "",
@@ -335,7 +338,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        },
+        {
             fileName: "00031.jpg",
             en: {
                 title: "",
@@ -345,7 +349,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        },
+        {
             fileName: "00032.jpg",
             en: {
                 title: "",
@@ -355,7 +360,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        },
+        {
             fileName: "00033.jpg",
             en: {
                 title: "",
@@ -365,7 +371,8 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, {
+        },
+        {
             fileName: "00034.jpg",
             en: {
                 title: "",
@@ -397,7 +404,7 @@ const data = {
                 title: "Тут можно вписать название",
                 description: "А тут описание"
             }
-        }, 
+        },
         {
             fileName: "0002.jpg",
             en: {
@@ -408,7 +415,7 @@ const data = {
                 title: "Название",
                 description: "Или любой другой текст"
             }
-        }, 
+        },
         {
             fileName: "0003.jpg",
             en: {
@@ -419,7 +426,7 @@ const data = {
                 title: "название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "0004.jpg",
             en: {
@@ -430,7 +437,7 @@ const data = {
                 title: "название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "0005.jpg",
             en: {
@@ -441,7 +448,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "0001.jpg",
             en: {
@@ -452,7 +459,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "0007.jpg",
             en: {
@@ -463,7 +470,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "0008.jpg",
             en: {
@@ -474,7 +481,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "0009.jpg",
             en: {
@@ -485,7 +492,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "0010.jpg",
             en: {
@@ -507,7 +514,7 @@ const data = {
                 title: "Другое название",
                 description: "Иногда приходится кланяться"
             }
-        }, 
+        },
         {
             fileName: "0012.jpg",
             en: {
@@ -518,7 +525,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "0013.jpg",
             en: {
@@ -529,7 +536,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "0014.jpg",
             en: {
@@ -540,7 +547,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "0015.jpg",
             en: {
@@ -551,7 +558,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "0016.jpg",
             en: {
@@ -562,7 +569,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "0017.jpg",
             en: {
@@ -573,7 +580,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
         {
             fileName: "0018.jpg",
             en: {
@@ -584,7 +591,7 @@ const data = {
                 title: "Другое название",
                 description: ""
             }
-        }, 
+        },
     ],
     music: {
         albumTitle: {
