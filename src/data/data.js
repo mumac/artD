@@ -719,26 +719,35 @@ const data = {
         },
         bioLinks: [
             {
-                fileName: "Bio_1.pdf",
-                text: {
-                    en: "Download Full Bio",
-                    ru: "Скачать полную биографию"
-                }
+                en: {
+                    fileName: "Bio_1_en.pdf",
+                    text: "Download Full Bio",
+                },
+                ru: {
+                    fileName: "Bio_1_ru.pdf",
+                    text: "Скачать полную биографию",
+                },
             },
             {
-                fileName: "Bio_1.pdf",
-                text: {
-                    en: "Download Press Release",
-                    ru: "Скачать пресс-релиз"
-                }
+                en: {
+                    fileName: "Bio_1_en.pdf",
+                    text: "Download Press Release",
+                },
+                ru: {
+                    fileName: "Bio_1_ru.pdf",
+                    text: "Скачать пресс-релиз",
+                },
             },
             {
-                fileName: "Bio_1.pdf",
-                text: {
-                    en: "Download Press Quotes",
-                    ru: "Скачать отзывы"
-                }
-            }
+                en: {
+                    fileName: "Bio_1_en.pdf",
+                    text: "Download Press Quotes",
+                },
+                ru: {
+                    fileName: "Bio_1_ru.pdf",
+                    text: "Скачать отзывы",
+                },
+            },
         ],
         shortBioText: {
             en: {
@@ -777,38 +786,41 @@ const data = {
         ],
         riderItems: [
             {
-                fileName: "rider_1.pdf",
                 en: {
+                    fileName: "rider_1.pdf",
                     buttonText: "Download",
                     text: "Set List"
                 },
                 ru: {
+                    fileName: "rider_1.pdf",
                     buttonText: "Cкачать",
                     text: "Set List"
                 }
             },
             {
-                fileName: "rider_1.pdf",
                 en: {
+                    fileName: "rider_1.pdf",
                     buttonText: "Download",
                     text: "Tech Rider"
                 },
                 ru: {
+                    fileName: "rider_1.pdf",
                     buttonText: "Cкачать",
                     text: "Tech Rider"
                 }
             },
             {
-                fileName: "rider_1.pdf",
                 en: {
+                    fileName: "rider_1.pdf",
                     buttonText: "Download",
                     text: "Hospitality Rider"
                 },
                 ru: {
+                    fileName: "rider_1.pdf",
                     buttonText: "Cкачать",
                     text: "Hospitality Rider"
                 }
-            }
+            },
         ],
         representationItems: [
             {
@@ -873,6 +885,26 @@ const data = {
                 previewfileName: "00003.jpg",
                 fileName: "00003.jpg",
                 alt: ""
+            },
+        ]
+    },
+    contacts: {
+        items: [
+            {
+                title: {
+                    en: "World management | ArtDialog Agency",
+                    ru: "World management | ArtDialog Agency"
+                },
+                email: "vasylyev@artdialog.ch",
+                phoneNumber: "+123-456-7890"
+            },
+            {
+                title: {
+                    en: "Russia management | Kate Goltzman",
+                    ru: "По России | Катя Гольцман"
+                },
+                email: "info@бла-бла.com",
+                phoneNumber: "+123-456-7890"
             },
         ]
     }
