@@ -33,7 +33,7 @@ function ContactPage() {
                             {t("contact_page.contact_1.name_1")}
                         </div>
                         <div className="contact-email">
-                            {t("contact_page.contact_1.email <a href="mailto:someone@example.com">Send email</a>"),}
+                            {t("contact_page.contact_1.email")}
                         </div>
                         <div className="contact-phone">
                             {t("contact_page.contact_1.phone")}

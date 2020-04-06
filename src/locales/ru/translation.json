@@ -30,7 +30,7 @@
     "contact_1": {
       "name": "Международный менеджмент | ArtDialog Agency",
       "name_1": "Дмитрий Васильев",
-      "email": "<a href= mailto:someone@example.com>Send email</a> vasylyev@artdialog.ch",
+      "email": "vasylyev@artdialog.ch",
       "phone": "+41763655316"
     },
     "contact_2": {
@@ -47,7 +47,9 @@
   "music_page": {
     "seo_title": "Медиа",
     "seo_description": "Music Description",
-    "title": "Медиа"
+    "title": "Медиа",
+    "video_title": "VIDEO",
+    "audio_title": "АУДИО"
   },
   "tour_page": {
     "seo_title": "Концерты",

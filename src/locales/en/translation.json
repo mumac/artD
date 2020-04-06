@@ -47,7 +47,9 @@
   "music_page": {
     "seo_title": "Media",
     "seo_description": "Media Description",
-    "title": "Media"
+    "title": "Media",
+    "video_title": "VIDEO",
+    "audio_title": "AUDIO"
   },
   "tour_page": {
     "seo_title": "Tour",
