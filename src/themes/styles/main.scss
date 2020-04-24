@@ -207,7 +207,7 @@ h2 {
     }
 
     .quote-author {
-        font-size: (12 / 16) + rem;
+        font-size: (18/ 16) + rem;
         font-weight: 300;
         color: $text-color-secondary;
         text-align: right;
@@ -216,7 +216,7 @@ h2 {
 
     .about-text {
         flex: 0 0 44%;
-        font-size: (14 / 16) + rem;
+        font-size: (16 / 16) + rem;
         line-height: 1.8;
     }
 }
@@ -275,7 +275,7 @@ h2 {
         justify-content: space-between;
         padding-bottom: 45px;
         white-space: pre-line;
-        border-bottom: 1px solid #222;
+        border-bottom: 1px solid #979797;
     }
 
     .video-title {
@@ -306,6 +306,7 @@ h2 {
     text-align: left;
     padding: 30px 10px;
     border-top: 1px solid #979797;
+    color: $text-color-secondary;
 }
 
 .event {
@@ -322,7 +323,6 @@ h2 {
         font-weight: 700;
         font-size: (28 / 16) + rem;
         margin-bottom: 10px;
-        color: #333;
         white-space: pre-line;
         @include respond(sm) {
             font-size: (32 / 16) + rem;
@@ -364,7 +364,7 @@ h2 {
             display: block;
             width: 100%;
             padding: 10px 0;
-            border: 1px solid #222;
+            border: 1px solid #34cfc8;
             text-align: center;
             transition: none;
             text-decoration: none;
@@ -375,7 +375,7 @@ h2 {
 
             &:hover {
                 background-color: #000;
-                color: #fff;
+                color: $link-active-color;
             }
         }
     }
@@ -387,7 +387,8 @@ h2 {
         left: -15px;
         bottom: 10%;
         padding: 15px;
-        background-color: #fff;
+        color: $link-active-color;
+        background-color: $body-bg-color;
     }
 
     h2.title {
@@ -465,11 +466,11 @@ h2 {
         a {
             flex: 2 1 auto;
             padding: 8px 24px;
-            border: 1px solid $text-color-secondary;
+            border: 1px solid $link-active-color;
             margin-bottom: 15px;
 
             &:hover {
-                color: $text-color-secondary;
+                color: $link-active-color;
                 transition: 0.5s;
             }
         }
