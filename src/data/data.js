@@ -1,11 +1,11 @@
 const data = {
     social: {
         links: {
-            facebook: "https://www.facebook.com/varvarakutuzova",
+            facebook: "https://www.facebook.com/andrei.pushkarev",
             twitter: "",
-            youtube: "https://www.youtube.com/user/kutandr/videos",
-            instagram: "https://www.instagram.com/varvarakutuzova.piano",
-            vk: "https://vk.com/varvarakutuzova",
+            youtube: "",
+            instagram: "",
+            vk: "",
         }
     },
     gallery: [
