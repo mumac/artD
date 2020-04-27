@@ -654,6 +654,26 @@ const data = {
         ]
     },
     video: {
+        youtube_chanel_links: [
+            {
+                url: "https://youtube.com/",
+                en: {
+                    title: "Visit my Youtube Chanel"
+                },
+                ru: {
+                    title: "Мой Youtube канал"
+                }
+            },
+            {
+                url: "https://youtube.com/",
+                en: {
+                    title: "Visit my Youtube Chanel 2"
+                },
+                ru: {
+                    title: "Мой Youtube канал 2"
+                }
+            }
+        ],
         tracks: [
             {
                 url: "https://www.youtube.com/embed/mAVM5qwed8A",
@@ -1001,26 +1021,26 @@ const data = {
             }
         },
         bioItems: [
-           /*  {
-                en: "Origin:  San Francisco, CA",
-                ru: "Origin:  San Francisco, CA"
-            },
-            {
-                en: "Genres:  Folk pop",
-                ru: "Genres:  Folk pop"
-            },
-            {
-                en: "Years Active:  2012- Present",
-                ru: "Years Active:  2012- Present"
-            },
-            {
-                en: "Label:  Wix Records",
-                ru: "Label:  Wix Records"
-            },
-            {
-                en: "Website:  Wix.com",
-                ru: "Website:  Wix.com"
-            }, */
+            /*  {
+                 en: "Origin:  San Francisco, CA",
+                 ru: "Origin:  San Francisco, CA"
+             },
+             {
+                 en: "Genres:  Folk pop",
+                 ru: "Genres:  Folk pop"
+             },
+             {
+                 en: "Years Active:  2012- Present",
+                 ru: "Years Active:  2012- Present"
+             },
+             {
+                 en: "Label:  Wix Records",
+                 ru: "Label:  Wix Records"
+             },
+             {
+                 en: "Website:  Wix.com",
+                 ru: "Website:  Wix.com"
+             }, */
         ],
         riderItems: [
             /* {
